@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Snippet-Tags on IB Authors</title>
-    <link>htpps://polodev.github.io/learning/ko/snippet-tags/</link>
+    <link>https://polodev.github.io/learning/ko/snippet-tags/</link>
     <description>Recent content in Snippet-Tags on IB Authors</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
@@ -15,7 +15,7 @@
     <webMaster>polodev10@gmail.com (Shibu Deb Polo)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     
-        <atom:link href="htpps://polodev.github.io/learning/ko/snippet-tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://polodev.github.io/learning/ko/snippet-tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     

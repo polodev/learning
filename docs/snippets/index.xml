@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Snippets on IB Authors</title>
-    <link>htpps://polodev.github.io/learning/snippets/</link>
+    <link>https://polodev.github.io/learning/snippets/</link>
     <description>Recent content in Snippets on IB Authors</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -16,7 +16,7 @@
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 08 Aug 2020 19:02:27 +0600</lastBuildDate>
     
-        <atom:link href="htpps://polodev.github.io/learning/snippets/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://polodev.github.io/learning/snippets/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -24,11 +24,11 @@
       
       <item>
         <title>Demo Snippet</title>
-        <link>htpps://polodev.github.io/learning/snippets/demo-snippet/</link>
+        <link>https://polodev.github.io/learning/snippets/demo-snippet/</link>
         <pubDate>Sat, 08 Aug 2020 19:02:27 +0600</pubDate>
         <author>polodev10@gmail.com (Shibu Deb Polo)</author>
         <atom:modified>Sat, 08 Aug 2020 19:02:27 +0600</atom:modified>
-        <guid>htpps://polodev.github.io/learning/snippets/demo-snippet/</guid>
+        <guid>https://polodev.github.io/learning/snippets/demo-snippet/</guid>
         <description>demo article line 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, pariatur.
 demo article line 2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea delectus, vitae consectetur sequi rerum dolores. Voluptas, tenetur officiis fugit veritatis, id doloremque!
 demo article line 3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolore recusandae porro. Laudantium molestias, optio, quis incidunt dolores voluptatum dignissimos natus temporibus non explicabo aliquid nemo, odio deleniti veniam enim, fugit dolor ratione.</description>
@@ -47,10 +47,6 @@ demo article line 3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. De
             
           
         
-        
-          
-            
-          
         
       </item>
       

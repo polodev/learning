@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Categories on IB Authors</title>
-    <link>htpps://polodev.github.io/learning/categories/</link>
+    <link>https://polodev.github.io/learning/categories/</link>
     <description>Recent content in Categories on IB Authors</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -16,7 +16,7 @@
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 08 Aug 2020 18:37:38 +0600</lastBuildDate>
     
-        <atom:link href="htpps://polodev.github.io/learning/categories/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://polodev.github.io/learning/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -24,11 +24,11 @@
       
       <item>
         <title>wordpress</title>
-        <link>htpps://polodev.github.io/learning/categories/wordpress/</link>
+        <link>https://polodev.github.io/learning/categories/wordpress/</link>
         <pubDate>Sat, 08 Aug 2020 18:37:38 +0600</pubDate>
         <author>polodev10@gmail.com (Shibu Deb Polo)</author>
         
-        <guid>htpps://polodev.github.io/learning/categories/wordpress/</guid>
+        <guid>https://polodev.github.io/learning/categories/wordpress/</guid>
         <description></description>
         
         <dc:creator>Shibu Deb Polo</dc:creator>

@@ -1,4 +1,4 @@
-baseURL = "htpps://polodev.github.io/learning"
+baseURL = "https://polodev.github.io/learning"
 title = "IB Authors"
 theme = "zzo"
 publishDir= "docs"
@@ -8,7 +8,7 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 hasCJKLanguage = true
 
-summaryLength = 70
+summaryLength = 60
 buildFuture = true
 
 copyright = "&copy;{year}, All Rights Reserved"
