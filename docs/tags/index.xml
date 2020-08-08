@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Tags on IB Authors</title>
-    <link>http://example.org/tags/</link>
+    <link>htpps://polodev.github.io/learning/tags/</link>
     <description>Recent content in Tags on IB Authors</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -16,7 +16,7 @@
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 08 Aug 2020 18:37:38 +0600</lastBuildDate>
     
-        <atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="htpps://polodev.github.io/learning/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -24,11 +24,11 @@
       
       <item>
         <title>wordpress</title>
-        <link>http://example.org/tags/wordpress/</link>
+        <link>htpps://polodev.github.io/learning/tags/wordpress/</link>
         <pubDate>Sat, 08 Aug 2020 18:37:38 +0600</pubDate>
         <author>polodev10@gmail.com (Shibu Deb Polo)</author>
         
-        <guid>http://example.org/tags/wordpress/</guid>
+        <guid>htpps://polodev.github.io/learning/tags/wordpress/</guid>
         <description></description>
         
         <dc:creator>Shibu Deb Polo</dc:creator>
@@ -42,11 +42,11 @@
       
       <item>
         <title>wordpress-ajax</title>
-        <link>http://example.org/tags/wordpress-ajax/</link>
+        <link>htpps://polodev.github.io/learning/tags/wordpress-ajax/</link>
         <pubDate>Sat, 08 Aug 2020 18:37:38 +0600</pubDate>
         <author>polodev10@gmail.com (Shibu Deb Polo)</author>
         
-        <guid>http://example.org/tags/wordpress-ajax/</guid>
+        <guid>htpps://polodev.github.io/learning/tags/wordpress-ajax/</guid>
         <description></description>
         
         <dc:creator>Shibu Deb Polo</dc:creator>

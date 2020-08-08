@@ -1,4 +1,4 @@
-baseURL = "http://example.org"
+baseURL = "htpps://polodev.github.io/learning"
 title = "IB Authors"
 theme = "zzo"
 publishDir= "docs"

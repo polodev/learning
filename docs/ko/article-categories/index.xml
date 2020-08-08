@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Article-Categories on IB Authors</title>
-    <link>http://example.org/ko/article-categories/</link>
+    <link>htpps://polodev.github.io/learning/ko/article-categories/</link>
     <description>Recent content in Article-Categories on IB Authors</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
@@ -15,7 +15,7 @@
     <webMaster>polodev10@gmail.com (Shibu Deb Polo)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     
-        <atom:link href="http://example.org/ko/article-categories/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="htpps://polodev.github.io/learning/ko/article-categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     

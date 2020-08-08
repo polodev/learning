@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Snippet-Categories on IB Authors</title>
-    <link>http://example.org/snippet-categories/</link>
+    <link>htpps://polodev.github.io/learning/snippet-categories/</link>
     <description>Recent content in Snippet-Categories on IB Authors</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -15,7 +15,7 @@
     <webMaster>polodev10@gmail.com (Shibu Deb Polo)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     
-        <atom:link href="http://example.org/snippet-categories/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="htpps://polodev.github.io/learning/snippet-categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     

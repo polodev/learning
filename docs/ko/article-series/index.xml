@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Article-Series on IB Authors</title>
-    <link>http://example.org/ko/article-series/</link>
+    <link>htpps://polodev.github.io/learning/ko/article-series/</link>
     <description>Recent content in Article-Series on IB Authors</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
@@ -15,7 +15,7 @@
     <webMaster>polodev10@gmail.com (Shibu Deb Polo)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     
-        <atom:link href="http://example.org/ko/article-series/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="htpps://polodev.github.io/learning/ko/article-series/index.xml" rel="self" type="application/rss+xml" />
     
     
     

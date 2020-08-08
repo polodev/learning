@@ -3,254 +3,254 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>htpps://polodev.github.io/learning/</loc>
     <lastmod>2020-08-08T19:02:27+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://example.org/ko/"
+                href="#ZgotmplZ"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/"
+                href="#ZgotmplZ"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/articles/</loc>
+    <loc>htpps://polodev.github.io/learning/articles/</loc>
     <lastmod>2020-08-08T19:02:27+06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/bits/</loc>
+    <loc>htpps://polodev.github.io/learning/bits/</loc>
     <lastmod>2020-08-08T19:02:27+06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/articles/demo-article/</loc>
+    <loc>htpps://polodev.github.io/learning/articles/demo-article/</loc>
     <lastmod>2020-08-08T19:02:27+06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/bits/demo-bits/</loc>
+    <loc>htpps://polodev.github.io/learning/bits/demo-bits/</loc>
     <lastmod>2020-08-08T19:02:27+06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/snippets/demo-snippet/</loc>
+    <loc>htpps://polodev.github.io/learning/snippets/demo-snippet/</loc>
     <lastmod>2020-08-08T19:02:27+06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/snippets/</loc>
+    <loc>htpps://polodev.github.io/learning/snippets/</loc>
     <lastmod>2020-08-08T19:02:27+06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/posts/ajax-in-wordpress-using-admin-ajax.php/</loc>
+    <loc>htpps://polodev.github.io/learning/posts/ajax-in-wordpress-using-admin-ajax.php/</loc>
     <lastmod>2020-08-08T18:37:38+06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>htpps://polodev.github.io/learning/categories/</loc>
     <lastmod>2020-08-08T18:37:38+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://example.org/ko/categories/"
+                href="#ZgotmplZ"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/categories/"
+                href="#ZgotmplZ"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/posts/</loc>
+    <loc>htpps://polodev.github.io/learning/posts/</loc>
     <lastmod>2020-08-08T18:37:38+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://example.org/ko/posts/"
+                href="#ZgotmplZ"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/posts/"
+                href="#ZgotmplZ"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>htpps://polodev.github.io/learning/tags/</loc>
     <lastmod>2020-08-08T18:37:38+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://example.org/ko/tags/"
+                href="#ZgotmplZ"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/tags/"
+                href="#ZgotmplZ"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/tags/wordpress/</loc>
+    <loc>htpps://polodev.github.io/learning/tags/wordpress/</loc>
     <lastmod>2020-08-08T18:37:38+06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/wordpress/</loc>
+    <loc>htpps://polodev.github.io/learning/categories/wordpress/</loc>
     <lastmod>2020-08-08T18:37:38+06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/tags/wordpress-ajax/</loc>
+    <loc>htpps://polodev.github.io/learning/tags/wordpress-ajax/</loc>
     <lastmod>2020-08-08T18:37:38+06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/archive/</loc>
+    <loc>htpps://polodev.github.io/learning/archive/</loc>
     <lastmod>2019-10-19T11:44:14+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://example.org/ko/archive/"
+                href="#ZgotmplZ"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/archive/"
+                href="#ZgotmplZ"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/about/</loc>
+    <loc>htpps://polodev.github.io/learning/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://example.org/ko/about/"
+                href="#ZgotmplZ"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/about/"
+                href="#ZgotmplZ"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/article-categories/</loc>
+    <loc>htpps://polodev.github.io/learning/article-categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://example.org/ko/article-categories/"
+                href="#ZgotmplZ"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/article-categories/"
+                href="#ZgotmplZ"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/article-series/</loc>
+    <loc>htpps://polodev.github.io/learning/article-series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://example.org/ko/article-series/"
+                href="#ZgotmplZ"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/article-series/"
+                href="#ZgotmplZ"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/article-tags/</loc>
+    <loc>htpps://polodev.github.io/learning/article-tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://example.org/ko/article-tags/"
+                href="#ZgotmplZ"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/article-tags/"
+                href="#ZgotmplZ"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/bits-categories/</loc>
+    <loc>htpps://polodev.github.io/learning/bits-categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://example.org/ko/bits-categories/"
+                href="#ZgotmplZ"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/bits-categories/"
+                href="#ZgotmplZ"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/bits-tags/</loc>
+    <loc>htpps://polodev.github.io/learning/bits-tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://example.org/ko/bits-tags/"
+                href="#ZgotmplZ"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/bits-tags/"
+                href="#ZgotmplZ"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/series/</loc>
+    <loc>htpps://polodev.github.io/learning/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://example.org/ko/series/"
+                href="#ZgotmplZ"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/series/"
+                href="#ZgotmplZ"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/snippet-categories/</loc>
+    <loc>htpps://polodev.github.io/learning/snippet-categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://example.org/ko/snippet-categories/"
+                href="#ZgotmplZ"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/snippet-categories/"
+                href="#ZgotmplZ"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/snippet-tags/</loc>
+    <loc>htpps://polodev.github.io/learning/snippet-tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://example.org/ko/snippet-tags/"
+                href="#ZgotmplZ"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/snippet-tags/"
+                href="#ZgotmplZ"
                 />
   </url>
   
