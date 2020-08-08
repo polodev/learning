@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2020-08-08T19:02:27+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="http://example.org/ko/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/articles/</loc>
+    <lastmod>2020-08-08T19:02:27+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/bits/</loc>
+    <lastmod>2020-08-08T19:02:27+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/articles/demo-article/</loc>
+    <lastmod>2020-08-08T19:02:27+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/bits/demo-bits/</loc>
+    <lastmod>2020-08-08T19:02:27+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/snippets/demo-snippet/</loc>
+    <lastmod>2020-08-08T19:02:27+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/snippets/</loc>
+    <lastmod>2020-08-08T19:02:27+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/ajax-in-wordpress-using-admin-ajax.php/</loc>
+    <lastmod>2020-08-08T18:37:38+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+    <lastmod>2020-08-08T18:37:38+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="http://example.org/ko/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/</loc>
+    <lastmod>2020-08-08T18:37:38+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="http://example.org/ko/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+    <lastmod>2020-08-08T18:37:38+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="http://example.org/ko/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/wordpress/</loc>
+    <lastmod>2020-08-08T18:37:38+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/wordpress/</loc>
+    <lastmod>2020-08-08T18:37:38+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/wordpress-ajax/</loc>
+    <lastmod>2020-08-08T18:37:38+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/archive/</loc>
+    <lastmod>2019-10-19T11:44:14+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="http://example.org/ko/archive/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/archive/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/about/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="http://example.org/ko/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/article-categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="http://example.org/ko/article-categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/article-categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/article-series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="http://example.org/ko/article-series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/article-series/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/article-tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="http://example.org/ko/article-tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/article-tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/bits-categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="http://example.org/ko/bits-categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/bits-categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/bits-tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="http://example.org/ko/bits-tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/bits-tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="http://example.org/ko/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/snippet-categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="http://example.org/ko/snippet-categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/snippet-categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/snippet-tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="http://example.org/ko/snippet-tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/snippet-tags/"
+                />
+  </url>
+  
+</urlset>

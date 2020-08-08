@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Bits on IB Authors</title>
+    <link>http://example.org/bits/</link>
+    <description>Recent content in Bits on IB Authors</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>polodev10@gmail.com (Shibu Deb Polo)</managingEditor>
+    <webMaster>polodev10@gmail.com (Shibu Deb Polo)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 08 Aug 2020 19:02:27 +0600</lastBuildDate>
+    
+        <atom:link href="http://example.org/bits/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Demo Bits</title>
+        <link>http://example.org/bits/demo-bits/</link>
+        <pubDate>Sat, 08 Aug 2020 19:02:27 +0600</pubDate>
+        <author>polodev10@gmail.com (Shibu Deb Polo)</author>
+        <atom:modified>Sat, 08 Aug 2020 19:02:27 +0600</atom:modified>
+        <guid>http://example.org/bits/demo-bits/</guid>
+        <description>demo article line 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, pariatur.
+demo article line 2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea delectus, vitae consectetur sequi rerum dolores. Voluptas, tenetur officiis fugit veritatis, id doloremque!
+demo article line 3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolore recusandae porro. Laudantium molestias, optio, quis incidunt dolores voluptatum dignissimos natus temporibus non explicabo aliquid nemo, odio deleniti veniam enim, fugit dolor ratione.</description>
+        
+        <dc:creator>shibu</dc:creator>
+        
+        
+        
+        
+          
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

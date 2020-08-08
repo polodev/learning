@@ -1,0 +1,75 @@
+baseURL = "http://example.org"
+title = "IB Authors"
+theme = "zzo"
+publishDir= "docs"
+
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+hasCJKLanguage = true
+
+summaryLength = 70
+buildFuture = true
+
+copyright = "&copy;{year}, All Rights Reserved"
+timeout = 10000
+enableEmoji = true
+paginate = 13
+rssLimit = 100
+
+enableGitInfo = false
+googleAnalytics = ""
+
+[permalinks]
+  posts = "/posts/:slug/"
+  articles = "/articles/:slug/"
+  bits = "/bits/:slug/"
+  snippets = "/snippets/:slug/"
+  drafts = "/drafts/:slug/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = true
+      unsafe = true
+      xHTML = true
+  [markup.highlight]
+    codeFences = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+
+[outputs]
+  home = ["HTML", "RSS", "SearchIndex"]
+  section = ["HTML", "RSS", "SearchIndex"]
+  taxonomyTerm = ["HTML", "RSS", "SearchIndex"]
+  taxonomy = ["HTML", "RSS", "SearchIndex"]
+
+[outputFormats]
+  [outputFormats.SearchIndex]
+    mediaType = "application/json"
+    baseName = "index"
+    isPlainText = true
+    notAlternative = true
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+  
+  article-tag="article-tags"
+  article-category = "article-categories"
+  article-series = "article-series"
+
+  bits-tag="bits-tags"
+  bits-category = "bits-categories"
+
+  snippet-tag="snippet-tags"
+  snippet-category = "snippet-categories"
+
+
+
