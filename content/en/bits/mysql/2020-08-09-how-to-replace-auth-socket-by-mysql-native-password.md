@@ -2,6 +2,7 @@
 title: "How to Replace Auth Socket by Mysql Native Password"
 date: 2020-08-09T11:43:43+06:00
 description:
+keyword: "mysql auth socket, mysql native password"
 draft: false
 author: shibu
 hideToc: false

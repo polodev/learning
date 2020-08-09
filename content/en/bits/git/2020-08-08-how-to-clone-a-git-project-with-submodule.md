@@ -1,6 +1,7 @@
 ---
 title: "How to Clone a Git Project With Submodule"
 date: 2020-08-08T20:44:11+06:00
+keyword: "git submodule clone"
 description:
 draft: false
 author: shibu

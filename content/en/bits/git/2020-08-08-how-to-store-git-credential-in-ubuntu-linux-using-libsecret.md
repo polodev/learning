@@ -1,6 +1,7 @@
 ---
 title: "How to Store Git Credential in Ubuntu Linux Using Libsecret"
 date: 2020-08-08T20:45:41+06:00
+keyword: "storing git credential"
 description:
 draft: false
 author: shibu
