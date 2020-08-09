@@ -10,14 +10,14 @@ enableTocContent: false
 tocPosition: inner
 tocLevels: ["h2", "h3", "h4"]
 bit_tags:
--
+- mysql
 bit_series:
 bit_categories:
 -
 image:
 ---
 
-Initially in default mysql settings, comes with "auth_socket" plugin for root user.
+Initially, default mysql settings, comes with "auth_socket" plugin for root user.
 
 In my case I was unable to login to phpmyadmin from web browser using root user 
 
@@ -31,14 +31,14 @@ sudo mysql -uroot
 ~~~
 
 ### Plugin used for `user` in mysql
-Once we login to mysql, we can view current used plugin for user using following code
+Once we login to mysql, we can view current used plugin for user, using following code
 
 ~~~bash
 use mysql;
 SELECT user,plugin,host FROM mysql.user;
 ~~~
 
-### alter user for replacing `auth_socket` plugin by `mysql_native_password` 
+### Alter user for replacing `auth_socket` plugin by `mysql_native_password` 
 
 we can change user plugin using following code       
 

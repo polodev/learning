@@ -14,7 +14,7 @@
     <managingEditor>polodev10@gmail.com (Shibu Deb Polo)</managingEditor>
     <webMaster>polodev10@gmail.com (Shibu Deb Polo)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 08 Aug 2020 19:02:27 +0600</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2020 11:43:43 +0600</lastBuildDate>
     
         <atom:link href="https://polodev.github.io/learning/bits/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,29 +23,64 @@
 
       
       <item>
-        <title>Demo Bits</title>
-        <link>https://polodev.github.io/learning/bits/demo-bits/</link>
-        <pubDate>Sat, 08 Aug 2020 19:02:27 +0600</pubDate>
+        <title>How to Replace Auth Socket by Mysql Native Password</title>
+        <link>https://polodev.github.io/learning/bits/how-to-replace-auth-socket-by-mysql-native-password/</link>
+        <pubDate>Sun, 09 Aug 2020 11:43:43 +0600</pubDate>
         <author>polodev10@gmail.com (Shibu Deb Polo)</author>
-        <atom:modified>Sat, 08 Aug 2020 19:02:27 +0600</atom:modified>
-        <guid>https://polodev.github.io/learning/bits/demo-bits/</guid>
-        <description>demo article line 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, pariatur.
-demo article line 2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea delectus, vitae consectetur sequi rerum dolores. Voluptas, tenetur officiis fugit veritatis, id doloremque!
-demo article line 3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolore recusandae porro. Laudantium molestias, optio, quis incidunt dolores voluptatum dignissimos natus temporibus non explicabo aliquid nemo, odio deleniti veniam enim, fugit dolor ratione.</description>
+        <atom:modified>Sun, 09 Aug 2020 11:43:43 +0600</atom:modified>
+        <guid>https://polodev.github.io/learning/bits/how-to-replace-auth-socket-by-mysql-native-password/</guid>
+        <description>Initially, default mysql settings, comes with &amp;ldquo;auth_socket&amp;rdquo; plugin for root user.
+In my case I was unable to login to phpmyadmin from web browser using root user
+Login to mysql To see which plugin used for specific user we need to login to our mysql from command line
+1  sudo mysql -uroot   Plugin used for user in mysql Once we login to mysql, we can view current used plugin for user, using following code</description>
         
         <dc:creator>shibu</dc:creator>
         
         
         
         
-          
-            
-          
         
         
-          
-            
-          
+      </item>
+      
+      <item>
+        <title>How to Store Git Credential in Ubuntu Linux Using Libsecret</title>
+        <link>https://polodev.github.io/learning/bits/how-to-store-git-credential-in-ubuntu-linux-using-libsecret/</link>
+        <pubDate>Sat, 08 Aug 2020 20:45:41 +0600</pubDate>
+        <author>polodev10@gmail.com (Shibu Deb Polo)</author>
+        <atom:modified>Sat, 08 Aug 2020 20:45:41 +0600</atom:modified>
+        <guid>https://polodev.github.io/learning/bits/how-to-store-git-credential-in-ubuntu-linux-using-libsecret/</guid>
+        <description>Git credential storing using Libsecret Installing libsecret
+1  sudo apt install libsecret-1-0 libsecret-1-dev   Run make command for recompile
+1 2  cd /usr/share/doc/git/contrib/credential/libsecret sudo make   Update git credential.helper
+1  git config --global credential.helper /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret   Alternative - git cache credential helper If you don&amp;rsquo;t want to install anything you can use git credential helper.</description>
+        
+        <dc:creator>shibu</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>How to Clone a Git Project With Submodule</title>
+        <link>https://polodev.github.io/learning/bits/how-to-clone-a-git-project-with-submodule/</link>
+        <pubDate>Sat, 08 Aug 2020 20:44:11 +0600</pubDate>
+        <author>polodev10@gmail.com (Shibu Deb Polo)</author>
+        <atom:modified>Sat, 08 Aug 2020 20:44:11 +0600</atom:modified>
+        <guid>https://polodev.github.io/learning/bits/how-to-clone-a-git-project-with-submodule/</guid>
+        <description>Git clone and update submodule later clone the repository
+1  git clone &amp;lt;git repository&amp;gt;   You have to do two things to update submodule
+1 2  git submodule init git submodule update   Git cloning including submodules In git 2.13 version and later, &amp;ndash;recurse-submodules can be used instead of &amp;ndash;recursive:
+1  git clone --recurse-submodules -j8 git://github.</description>
+        
+        <dc:creator>shibu</dc:creator>
+        
+        
+        
+        
         
         
       </item>

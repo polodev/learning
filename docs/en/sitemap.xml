@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://polodev.github.io/learning/</loc>
-    <lastmod>2020-08-08T19:02:27+06:00</lastmod>
+    <lastmod>2020-08-09T11:43:43+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -18,22 +18,32 @@
   </url>
   
   <url>
+    <loc>https://polodev.github.io/learning/bits/</loc>
+    <lastmod>2020-08-09T11:43:43+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://polodev.github.io/learning/bits/how-to-replace-auth-socket-by-mysql-native-password/</loc>
+    <lastmod>2020-08-09T11:43:43+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://polodev.github.io/learning/bits/how-to-store-git-credential-in-ubuntu-linux-using-libsecret/</loc>
+    <lastmod>2020-08-08T20:45:41+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://polodev.github.io/learning/bits/how-to-clone-a-git-project-with-submodule/</loc>
+    <lastmod>2020-08-08T20:44:11+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://polodev.github.io/learning/articles/</loc>
     <lastmod>2020-08-08T19:02:27+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://polodev.github.io/learning/bits/</loc>
-    <lastmod>2020-08-08T19:02:27+06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://polodev.github.io/learning/articles/demo-article/</loc>
-    <lastmod>2020-08-08T19:02:27+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://polodev.github.io/learning/bits/demo-bits/</loc>
     <lastmod>2020-08-08T19:02:27+06:00</lastmod>
   </url>
   
