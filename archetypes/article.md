@@ -10,9 +10,7 @@ enableTocContent: false
 tocPosition: inner
 tocLevels: ["h2", "h3", "h4"]
 article_tags:
--
 article_series:
 article_categories:
--
 image:
 ---

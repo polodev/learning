@@ -10,9 +10,7 @@ enableTocContent: false
 tocPosition: inner
 tocLevels: ["h2", "h3", "h4"]
 snippet_tags:
--
 snippet_series:
 snippet_categories:
--
 image:
 ---

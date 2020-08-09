@@ -12,9 +12,10 @@ tocPosition: inner
 tocLevels: ["h2", "h3", "h4"]
 bit_tags: 
 - git
+- submodule
 bit_series:
 bit_categories:
--
+- git
 image:
 ---
 

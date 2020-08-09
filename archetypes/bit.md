@@ -10,9 +10,7 @@ enableTocContent: false
 tocPosition: inner
 tocLevels: ["h2", "h3", "h4"]
 bit_tags:
--
 bit_series:
 bit_categories:
--
 image:
 ---

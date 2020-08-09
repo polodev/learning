@@ -12,6 +12,7 @@ tocPosition: inner
 tocLevels: ["h2", "h3", "h4"]
 bit_tags:
 - git
+- git-credential
 bit_series:
 bit_categories:
 -

@@ -14,7 +14,7 @@ bit_tags:
 - mysql
 bit_series:
 bit_categories:
--
+- mysql
 image:
 ---
 
