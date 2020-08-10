@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>How to Know Service Process and Ram Status in Ubuntu Linux – IB Authors</title>
+    <title>How to Check Cpu Info in Linux – IB Authors</title>
     
 
 
@@ -556,7 +556,7 @@
     
     var baseurl = JSON.parse("\"https://polodev.github.io/learning\"");
     
-    var permalink = JSON.parse("\"https://polodev.github.io/learning/bits/how-to-know-service-process-and-ram-status-in-ubuntu-linux/\"");
+    var permalink = JSON.parse("\"https://polodev.github.io/learning/bits/how-to-check-cpu-info-in-linux/\"");
     
     var langprefix = JSON.parse("\"\"");
     var searchResults = null;
@@ -1224,17 +1224,17 @@
 <meta name="description" content="" />
 
 
-<meta name="created" content="2020-08-10T01:13:33&#43;0600">
-<meta name="modified" content="2020-08-10T01:13:33&#43;0600">
-<meta property="article:published_time" content="2020-08-10T01:13:33&#43;0600">
+<meta name="created" content="2020-08-11T00:23:13&#43;0600">
+<meta name="modified" content="2020-08-11T00:23:13&#43;0600">
+<meta property="article:published_time" content="2020-08-11T00:23:13&#43;0600">
 
 <meta name="author" content="shibu">
-<meta property="article:author" content="https://polodev.github.io/learning/bits/how-to-know-service-process-and-ram-status-in-ubuntu-linux/@shibu">
+<meta property="article:author" content="https://polodev.github.io/learning/bits/how-to-check-cpu-info-in-linux/@shibu">
 
 
 <meta property="og:site_name" content="IB Authors">
-<meta property="og:title" content="How to Know Service Process and Ram Status in Ubuntu Linux">
-<meta property="og:url" content="https://polodev.github.io/learning/bits/how-to-know-service-process-and-ram-status-in-ubuntu-linux/">
+<meta property="og:title" content="How to Check Cpu Info in Linux">
+<meta property="og:url" content="https://polodev.github.io/learning/bits/how-to-check-cpu-info-in-linux/">
 <meta property="og:type" content="article">
 <meta property="og:description" content="">
 
@@ -1247,7 +1247,7 @@
 
 <meta name="apple-mobile-web-app-status-bar-style" content="#fff">
 
-<link rel="canonical" href="https://polodev.github.io/learning/bits/how-to-know-service-process-and-ram-status-in-ubuntu-linux/">
+<link rel="canonical" href="https://polodev.github.io/learning/bits/how-to-check-cpu-info-in-linux/">
 
 <link rel="manifest" href="/learning/manifest.json">
 
@@ -1273,11 +1273,11 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "headline": "How to Know Service Process and Ram Status in Ubuntu Linux",
-    "datePublished": "2020-08-10T01:13:33+06:00",
-    "dateModified": "2020-08-10T01:13:33+06:00",
-    "url" : "https://polodev.github.io/learning/bits/how-to-know-service-process-and-ram-status-in-ubuntu-linux/",
-    "description": "to know about ram To display the total amount of ram in ubuntu 1  free   default size show in kilobyte unit To display the total amount of ram in ubuntu in megabyte mb …",
+    "headline": "How to Check Cpu Info in Linux",
+    "datePublished": "2020-08-11T00:23:13+06:00",
+    "dateModified": "2020-08-11T00:23:13+06:00",
+    "url" : "https://polodev.github.io/learning/bits/how-to-check-cpu-info-in-linux/",
+    "description": "lscpu command lscpu is the simplest command that shows the cpu information like processor vendor, number of processor, cache, processor speed 1  lscpu   best way to …",
     "author": {
       "@type": "Person",
       "name": "shibu"
@@ -1589,7 +1589,7 @@
   
   <li  class="is-active" >
     
-      <span>How to Know Service Process and Ram Status in Ubuntu Linux</span>
+      <span>How to Check Cpu Info in Linux</span>
     
   </li>
   
@@ -1601,13 +1601,13 @@
   <div class="single ">
     <div class="single__nojs">This page looks best with JavaScript enabled</div>
     <script>document.querySelector('.single').classList.remove('hide'); document.querySelector('.single__nojs').classList.add('hide');</script>
-    <h2 class="single__title" data-ani="true">How to Know Service Process and Ram Status in Ubuntu Linux</h2>
+    <h2 class="single__title" data-ani="true">How to Check Cpu Info in Linux</h2>
     <div class="single__meta">
       
 <div class="single__infos">
-  <time class="single__info" title="Written At">📅&nbsp;Aug 10, 2020 </time>
+  <time class="single__info" title="Written At">📅&nbsp;Aug 11, 2020 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;1&nbsp;min read </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;7&nbsp;min read </span>
   
   &nbsp;&middot;&nbsp; <span class="single__info" title="WRITTEN BY">✍️&nbsp;shibu</span>
   
@@ -1631,61 +1631,322 @@
 
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
-      <h2 id="to-know-about-ram">to know about ram</h2>
-<p>To display the total amount of ram in ubuntu</p>
+      <h3 id="lscpu-command"><code>lscpu</code> command</h3>
+<p><code>lscpu</code> is the simplest command that shows the cpu information like processor vendor, number of processor, cache, processor speed</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">free
+<pre class="chroma"><code class="language-bash" data-lang="bash">lscpu
 </code></pre></td></tr></table>
 </div>
-</div><p>default size show in kilobyte unit</p>
-<p>To display the total amount of ram in ubuntu in megabyte <code>mb</code> unit</p>
+</div><p>best way to remember, <code>list cpu</code> for cpu</p>
+<pre><code>Architecture:                    x86_64
+CPU op-mode(s):                  32-bit, 64-bit
+Byte Order:                      Little Endian
+Address sizes:                   39 bits physical, 48 bits virtual
+CPU(s):                          4
+On-line CPU(s) list:             0-3
+Thread(s) per core:              2
+Core(s) per socket:              2
+Socket(s):                       1
+NUMA node(s):                    1
+Vendor ID:                       GenuineIntel
+CPU family:                      6
+Model:                           78
+Model name:                      Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz
+Stepping:                        3
+CPU MHz:                         1707.849
+CPU max MHz:                     3000.0000
+CPU min MHz:                     400.0000
+BogoMIPS:                        4999.90
+Virtualization:                  VT-x
+L1d cache:                       64 KiB
+L1i cache:                       64 KiB
+L2 cache:                        512 KiB
+L3 cache:                        3 MiB
+NUMA node0 CPU(s):               0-3
+Vulnerability Itlb multihit:     KVM: Mitigation: Split huge pages
+Vulnerability L1tf:              Mitigation; PTE Inversion; VMX conditional cache flushes, SMT vulnerable
+Vulnerability Mds:               Mitigation; Clear CPU buffers; SMT vulnerable
+Vulnerability Meltdown:          Mitigation; PTI
+Vulnerability Spec store bypass: Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:        Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:        Mitigation; Full generic retpoline, IBPB conditional, IBRS_FW, STIBP conditional, RSB filling
+Vulnerability Srbds:             Vulnerable: No microcode
+Vulnerability Tsx async abort:   Mitigation; Clear CPU buffers; SMT vulnerable
+Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall 
+                                 nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq d
+                                 tes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes
+                                  xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpri
+                                 ority ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx rdseed adx smap clflushopt intel_pt xsave
+                                 opt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+
+</code></pre><h3 id="getting-cpu-information-using-proccpuinfo-file">getting cpu information using proc/cpuinfo file</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">free -m
+<pre class="chroma"><code class="language-bash" data-lang="bash">cat /proc/cpuinfo
 </code></pre></td></tr></table>
 </div>
-</div><p>To display the total amount of ram in ubuntu in human friendly unit</p>
+</div><p>in my case I am getting following output</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">  1
+</span><span class="lnt">  2
+</span><span class="lnt">  3
+</span><span class="lnt">  4
+</span><span class="lnt">  5
+</span><span class="lnt">  6
+</span><span class="lnt">  7
+</span><span class="lnt">  8
+</span><span class="lnt">  9
+</span><span class="lnt"> 10
+</span><span class="lnt"> 11
+</span><span class="lnt"> 12
+</span><span class="lnt"> 13
+</span><span class="lnt"> 14
+</span><span class="lnt"> 15
+</span><span class="lnt"> 16
+</span><span class="lnt"> 17
+</span><span class="lnt"> 18
+</span><span class="lnt"> 19
+</span><span class="lnt"> 20
+</span><span class="lnt"> 21
+</span><span class="lnt"> 22
+</span><span class="lnt"> 23
+</span><span class="lnt"> 24
+</span><span class="lnt"> 25
+</span><span class="lnt"> 26
+</span><span class="lnt"> 27
+</span><span class="lnt"> 28
+</span><span class="lnt"> 29
+</span><span class="lnt"> 30
+</span><span class="lnt"> 31
+</span><span class="lnt"> 32
+</span><span class="lnt"> 33
+</span><span class="lnt"> 34
+</span><span class="lnt"> 35
+</span><span class="lnt"> 36
+</span><span class="lnt"> 37
+</span><span class="lnt"> 38
+</span><span class="lnt"> 39
+</span><span class="lnt"> 40
+</span><span class="lnt"> 41
+</span><span class="lnt"> 42
+</span><span class="lnt"> 43
+</span><span class="lnt"> 44
+</span><span class="lnt"> 45
+</span><span class="lnt"> 46
+</span><span class="lnt"> 47
+</span><span class="lnt"> 48
+</span><span class="lnt"> 49
+</span><span class="lnt"> 50
+</span><span class="lnt"> 51
+</span><span class="lnt"> 52
+</span><span class="lnt"> 53
+</span><span class="lnt"> 54
+</span><span class="lnt"> 55
+</span><span class="lnt"> 56
+</span><span class="lnt"> 57
+</span><span class="lnt"> 58
+</span><span class="lnt"> 59
+</span><span class="lnt"> 60
+</span><span class="lnt"> 61
+</span><span class="lnt"> 62
+</span><span class="lnt"> 63
+</span><span class="lnt"> 64
+</span><span class="lnt"> 65
+</span><span class="lnt"> 66
+</span><span class="lnt"> 67
+</span><span class="lnt"> 68
+</span><span class="lnt"> 69
+</span><span class="lnt"> 70
+</span><span class="lnt"> 71
+</span><span class="lnt"> 72
+</span><span class="lnt"> 73
+</span><span class="lnt"> 74
+</span><span class="lnt"> 75
+</span><span class="lnt"> 76
+</span><span class="lnt"> 77
+</span><span class="lnt"> 78
+</span><span class="lnt"> 79
+</span><span class="lnt"> 80
+</span><span class="lnt"> 81
+</span><span class="lnt"> 82
+</span><span class="lnt"> 83
+</span><span class="lnt"> 84
+</span><span class="lnt"> 85
+</span><span class="lnt"> 86
+</span><span class="lnt"> 87
+</span><span class="lnt"> 88
+</span><span class="lnt"> 89
+</span><span class="lnt"> 90
+</span><span class="lnt"> 91
+</span><span class="lnt"> 92
+</span><span class="lnt"> 93
+</span><span class="lnt"> 94
+</span><span class="lnt"> 95
+</span><span class="lnt"> 96
+</span><span class="lnt"> 97
+</span><span class="lnt"> 98
+</span><span class="lnt"> 99
+</span><span class="lnt">100
+</span><span class="lnt">101
+</span><span class="lnt">102
+</span><span class="lnt">103
+</span><span class="lnt">104
+</span><span class="lnt">105
+</span><span class="lnt">106
+</span><span class="lnt">107
+</span><span class="lnt">108
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">free -h
+<pre class="chroma"><code class="language-bash" data-lang="bash">processor : <span class="m">0</span>
+vendor_id : GenuineIntel
+cpu family  : <span class="m">6</span>
+model   : <span class="m">78</span>
+model name  : Intel<span class="o">(</span>R<span class="o">)</span> Core<span class="o">(</span>TM<span class="o">)</span> i5-6300U CPU @ 2.40GHz
+stepping  : <span class="m">3</span>
+microcode : 0xd6
+cpu MHz   : 500.010
+cache size  : <span class="m">3072</span> KB
+physical id : <span class="m">0</span>
+siblings  : <span class="m">4</span>
+core id   : <span class="m">0</span>
+cpu cores : <span class="m">2</span>
+apicid    : <span class="m">0</span>
+initial apicid  : <span class="m">0</span>
+fpu   : yes
+fpu_exception : yes
+cpuid level : <span class="m">22</span>
+wp    : yes
+flags   : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+bugs    : cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs taa itlb_multihit srbds
+bogomips  : 4999.90
+clflush size  : <span class="m">64</span>
+cache_alignment : <span class="m">64</span>
+address sizes : <span class="m">39</span> bits physical, <span class="m">48</span> bits virtual
+power management:
+
+processor : <span class="m">1</span>
+vendor_id : GenuineIntel
+cpu family  : <span class="m">6</span>
+model   : <span class="m">78</span>
+model name  : Intel<span class="o">(</span>R<span class="o">)</span> Core<span class="o">(</span>TM<span class="o">)</span> i5-6300U CPU @ 2.40GHz
+stepping  : <span class="m">3</span>
+microcode : 0xd6
+cpu MHz   : 500.002
+cache size  : <span class="m">3072</span> KB
+physical id : <span class="m">0</span>
+siblings  : <span class="m">4</span>
+core id   : <span class="m">1</span>
+cpu cores : <span class="m">2</span>
+apicid    : <span class="m">2</span>
+initial apicid  : <span class="m">2</span>
+fpu   : yes
+fpu_exception : yes
+cpuid level : <span class="m">22</span>
+wp    : yes
+flags   : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+bugs    : cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs taa itlb_multihit srbds
+bogomips  : 4999.90
+clflush size  : <span class="m">64</span>
+cache_alignment : <span class="m">64</span>
+address sizes : <span class="m">39</span> bits physical, <span class="m">48</span> bits virtual
+power management:
+
+processor : <span class="m">2</span>
+vendor_id : GenuineIntel
+cpu family  : <span class="m">6</span>
+model   : <span class="m">78</span>
+model name  : Intel<span class="o">(</span>R<span class="o">)</span> Core<span class="o">(</span>TM<span class="o">)</span> i5-6300U CPU @ 2.40GHz
+stepping  : <span class="m">3</span>
+microcode : 0xd6
+cpu MHz   : 500.004
+cache size  : <span class="m">3072</span> KB
+physical id : <span class="m">0</span>
+siblings  : <span class="m">4</span>
+core id   : <span class="m">0</span>
+cpu cores : <span class="m">2</span>
+apicid    : <span class="m">1</span>
+initial apicid  : <span class="m">1</span>
+fpu   : yes
+fpu_exception : yes
+cpuid level : <span class="m">22</span>
+wp    : yes
+flags   : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+bugs    : cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs taa itlb_multihit srbds
+bogomips  : 4999.90
+clflush size  : <span class="m">64</span>
+cache_alignment : <span class="m">64</span>
+address sizes : <span class="m">39</span> bits physical, <span class="m">48</span> bits virtual
+power management:
+
+processor : <span class="m">3</span>
+vendor_id : GenuineIntel
+cpu family  : <span class="m">6</span>
+model   : <span class="m">78</span>
+model name  : Intel<span class="o">(</span>R<span class="o">)</span> Core<span class="o">(</span>TM<span class="o">)</span> i5-6300U CPU @ 2.40GHz
+stepping  : <span class="m">3</span>
+microcode : 0xd6
+cpu MHz   : 500.008
+cache size  : <span class="m">3072</span> KB
+physical id : <span class="m">0</span>
+siblings  : <span class="m">4</span>
+core id   : <span class="m">1</span>
+cpu cores : <span class="m">2</span>
+apicid    : <span class="m">3</span>
+initial apicid  : <span class="m">3</span>
+fpu   : yes
+fpu_exception : yes
+cpuid level : <span class="m">22</span>
+wp    : yes
+flags   : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+bugs    : cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs taa itlb_multihit srbds
+bogomips  : 4999.90
+clflush size  : <span class="m">64</span>
+cache_alignment : <span class="m">64</span>
+address sizes : <span class="m">39</span> bits physical, <span class="m">48</span> bits virtual
+power management:
+
 </code></pre></td></tr></table>
 </div>
-</div><p>To display RAM type and speed, use the command:</p>
+</div><h4 id="use-lshw-command">Use <code>lshw</code> command</h4>
+<p>using list hardware shows all hardware information. To narrow down output only for cpu we<br />
+use <code>-class CPU</code> flag</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">sudo lshw -c memory
+<pre class="chroma"><code class="language-bash" data-lang="bash">sudo lshw -class CPU
 </code></pre></td></tr></table>
 </div>
-</div><h2 id="to-know-about-services">to know about services</h2>
-<p>To know about background processed services</p>
+</div><h4 id="use-hwinfo-command">Use <code>hwinfo</code> command</h4>
+<p>hwinfo is a command line tool to get hardware information of your Linux system.</p>
+<p>first we need to install hwinfo using following command</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">service --status-all 
+<pre class="chroma"><code class="language-bash" data-lang="bash">sudo apt install hwinfo
 </code></pre></td></tr></table>
 </div>
-</div><p>To stop a running service, enter the command:</p>
+</div><p>Once install we can run command</p>
+<pre><code>hwinfo --cpu
+</code></pre><h4 id="dmidecode"><code>dmidecode</code></h4>
+<p><code>dimidecode</code> command retrieve various type of hardware information in linux system. to get only processor related information following command we use</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">sudo service &lt;name&gt; stop
+<pre class="chroma"><code class="language-bash" data-lang="bash">sudo dmidecode --type processor
 </code></pre></td></tr></table>
 </div>
 </div>
@@ -1749,13 +2010,13 @@
     
     
       
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fpolodev.github.io%2flearning%2fbits%2fhow-to-know-service-process-and-ram-status-in-ubuntu-linux%2f" title="Facebook" aria-label="Facebook Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fpolodev.github.io%2flearning%2fbits%2fhow-to-check-cpu-info-in-linux%2f" title="Facebook" aria-label="Facebook Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
           <svg data-name="facebook" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"/></svg>
         </a>
       
     
       
-        <a href="https://twitter.com/intent/tweet?text=How%20to%20Know%20Service%20Process%20and%20Ram%20Status%20in%20Ubuntu%20Linux&url=https%3a%2f%2fpolodev.github.io%2flearning%2fbits%2fhow-to-know-service-process-and-ram-status-in-ubuntu-linux%2f&via=shibu" title="Twitter" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
+        <a href="https://twitter.com/intent/tweet?text=How%20to%20Check%20Cpu%20Info%20in%20Linux&url=https%3a%2f%2fpolodev.github.io%2flearning%2fbits%2fhow-to-check-cpu-info-in-linux%2f&via=shibu" title="Twitter" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
           <svg data-name="twitter" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m21.534 7.113c.976-.693 1.797-1.558 2.466-2.554v-.001c-.893.391-1.843.651-2.835.777 1.02-.609 1.799-1.566 2.165-2.719-.951.567-2.001.967-3.12 1.191-.903-.962-2.19-1.557-3.594-1.557-2.724 0-4.917 2.211-4.917 4.921 0 .39.033.765.114 1.122-4.09-.2-7.71-2.16-10.142-5.147-.424.737-.674 1.58-.674 2.487 0 1.704.877 3.214 2.186 4.089-.791-.015-1.566-.245-2.223-.606v.054c0 2.391 1.705 4.377 3.942 4.835-.401.11-.837.162-1.29.162-.315 0-.633-.018-.931-.084.637 1.948 2.447 3.381 4.597 3.428-1.674 1.309-3.8 2.098-6.101 2.098-.403 0-.79-.018-1.177-.067 2.18 1.405 4.762 2.208 7.548 2.208 8.683 0 14.342-7.244 13.986-14.637z"/></svg>
         </a>
       
@@ -1897,21 +2158,14 @@
 <nav class="pagination-single">
   
     
-      <a href="https://polodev.github.io/learning/bits/how-to-replace-auth-socket-by-mysql-native-password/" class="pagination-single__left">
+      <a href="https://polodev.github.io/learning/bits/how-to-know-service-process-and-ram-status-in-ubuntu-linux/" class="pagination-single__left">
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
         </div>
-        <div class="pagination-single__left-title">How to Replace Auth Socket by Mysql Native Password</div>      
+        <div class="pagination-single__left-title">How to Know Service Process and Ram Status in Ubuntu Linux</div>      
       </a>
     
     <div class="grow"></div>
-    
-      <a href="https://polodev.github.io/learning/bits/how-to-check-cpu-info-in-linux/" class="pagination-single__right">      
-        <div class="pagination-single__right-title">How to Check Cpu Info in Linux</div>
-        <div class="pagination-single__icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
-        </div>
-      </a>
     
   
 </nav>
@@ -2269,8 +2523,18 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="toc " data-dir="ltr" data-folding="true" data-ani="true">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#to-know-about-ram">to know about ram</a></li>
-    <li><a href="#to-know-about-services">to know about services</a></li>
+    <li>
+      <ul>
+        <li><a href="#lscpu-command"><code>lscpu</code> command</a></li>
+        <li><a href="#getting-cpu-information-using-proccpuinfo-file">getting cpu information using proc/cpuinfo file</a>
+          <ul>
+            <li><a href="#use-lshw-command">Use <code>lshw</code> command</a></li>
+            <li><a href="#use-hwinfo-command">Use <code>hwinfo</code> command</a></li>
+            <li><a href="#dmidecode"><code>dmidecode</code></a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>

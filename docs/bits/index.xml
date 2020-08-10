@@ -14,13 +14,33 @@
     <managingEditor>polodev10@gmail.com (Shibu Deb Polo)</managingEditor>
     <webMaster>polodev10@gmail.com (Shibu Deb Polo)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 10 Aug 2020 01:13:33 +0600</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2020 00:23:13 +0600</lastBuildDate>
     
         <atom:link href="https://polodev.github.io/learning/bits/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>How to Check Cpu Info in Linux</title>
+        <link>https://polodev.github.io/learning/bits/how-to-check-cpu-info-in-linux/</link>
+        <pubDate>Tue, 11 Aug 2020 00:23:13 +0600</pubDate>
+        <author>polodev10@gmail.com (Shibu Deb Polo)</author>
+        <atom:modified>Tue, 11 Aug 2020 00:23:13 +0600</atom:modified>
+        <guid>https://polodev.github.io/learning/bits/how-to-check-cpu-info-in-linux/</guid>
+        <description>lscpu command lscpu is the simplest command that shows the cpu information like processor vendor, number of processor, cache, processor speed
+1  lscpu   best way to remember, list cpu for cpu
+Architecture: x86_64 CPU op-mode(s): 32-bit, 64-bit Byte Order: Little Endian Address sizes: 39 bits physical, 48 bits virtual CPU(s): 4 On-line CPU(s) list: 0-3 Thread(s) per core: 2 Core(s) per socket: 2 Socket(s): 1 NUMA node(s): 1 Vendor ID: GenuineIntel CPU family: 6 Model: 78 Model name: Intel(R) Core(TM) i5-6300U CPU @ 2.</description>
+        
+        <dc:creator>shibu</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>How to Know Service Process and Ram Status in Ubuntu Linux</title>
