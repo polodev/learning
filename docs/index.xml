@@ -53,8 +53,8 @@
         <description>to know about ram To display the total amount of ram in ubuntu
 1  free   default size show in kilobyte unit
 To display the total amount of ram in ubuntu in megabyte mb unit
-1  free -m   To display RAM type and speed, use the command:
-1  sudo lshw -c memory   to know about services To know about background processed services</description>
+1  free -m   To display the total amount of ram in ubuntu in human friendly unit
+1  free -h   To display RAM type and speed, use the command:</description>
         
         <dc:creator>shibu</dc:creator>
         

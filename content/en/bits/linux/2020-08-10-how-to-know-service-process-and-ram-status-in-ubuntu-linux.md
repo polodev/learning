@@ -34,6 +34,11 @@ To display the total amount of ram in ubuntu in megabyte `mb` unit
 free -m
 ~~~
 
+To display the total amount of ram in ubuntu in human friendly unit
+~~~bash
+free -h
+~~~
+
 To display RAM type and speed, use the command:
 
 ~~~bash
