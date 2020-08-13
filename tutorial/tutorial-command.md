@@ -5,27 +5,38 @@ hugo new --kind article articles/folder/filename/index.md
 hugo new posts/folder/filename/index.md
 
 
-
-
+# for generating hugo content file
+~~~bash
 
 hugonew() {
   foldername=$1
   filename=$2
   kind=$3
-  # fullpath="$foldername/$filename/dhaka/borishal"
+  today="$(date +'%Y-%m-%d')"
+  filename="$today-$filename"
+
+  # for default posts
   fullpath="posts/$foldername/$filename/index.md"
+
   if [[ "$kind" == "bit" ]]; then
-      fullpath="--kind bit bits/$foldername/$filename.md"
+      fullpath="bits/$foldername/$filename.md"
   fi
 
   if [[ "$kind" == "snippet" ]]; then
-      fullpath="--kind snippet snippets/$foldername/$filename.md"
+      fullpath="snippets/$foldername/$filename.md"
   fi
 
   if [[ "$kind" == "article" ]]; then
-      fullpath="--kind article articles/$foldername/$filename/index.md"
+      fullpath="articles/$foldername/$filename/index.md"
   fi
-  echo $fullpath
 
-  # hugo new " $fullpath"
+  if [[ "$kind" ]]; then
+    hugo new --kind $kind  $fullpath
+  else 
+    hugo new $fullpath
+  fi
+
 }
+
+
+~~~
