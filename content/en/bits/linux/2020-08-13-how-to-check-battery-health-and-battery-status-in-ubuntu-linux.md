@@ -93,3 +93,35 @@ Battery 0: Unknown, 99%
 Battery 1: Charging, 90%, 00:10:15 until charged
 ~~~
 
+for more details using acpi command   
+
+~~~bash
+acpi -V
+~~~
+
+here `-V` flag is capital letter `V`. 
+
+~~~bash
+Battery 0: Unknown, 79%
+Battery 0: design capacity 1922 mAh, last full capacity 1603 mAh = 83%
+Battery 1: Discharging, 92%, 02:05:47 remaining
+Battery 1: design capacity 1978 mAh, last full capacity 1978 mAh = 100%
+Adapter 0: off-line
+Thermal 0: ok, 48.0 degrees C
+Thermal 0: trip point 0 switches to mode critical at temperature 128.0 degrees C
+Cooling 0: Processor 0 of 10
+Cooling 1: intel_powerclamp no state information available
+Cooling 2: Processor 0 of 10
+Cooling 3: pch_skylake no state information available
+Cooling 4: Processor 0 of 10
+Cooling 5: x86_pkg_temp no state information available
+Cooling 6: iwlwifi 0 of 19
+Cooling 7: Processor 0 of 10
+Cooling 8: iwlwifi_1 no state information available
+~~~
+
+
+
+
+
+
