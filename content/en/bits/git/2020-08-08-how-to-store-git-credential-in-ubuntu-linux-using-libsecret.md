@@ -56,4 +56,6 @@ git config --global credential.helper 'cache --timeout=300'
 
 
 
+<!-- ref: https://www.softwaredeveloper.blog/git-credential-storage-libsecret -->
+
 
