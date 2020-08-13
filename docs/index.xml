@@ -14,7 +14,7 @@
     <managingEditor>polodev10@gmail.com (Shibu Deb Polo)</managingEditor>
     <webMaster>polodev10@gmail.com (Shibu Deb Polo)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 11 Aug 2020 00:23:13 +0600</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2020 13:18:58 +0600</lastBuildDate>
     
         <atom:link href="https://polodev.github.io/learning/index.xml" rel="self" type="application/rss+xml" />
     
@@ -42,6 +42,27 @@
         
       
 
+      
+      <item>
+        <title>How to Check Battery Health and Battery Status in Ubuntu Linux</title>
+        <link>https://polodev.github.io/learning/bits/how-to-check-battery-health-and-battery-status-in-ubuntu-linux/</link>
+        <pubDate>Thu, 13 Aug 2020 13:18:58 +0600</pubDate>
+        <author>polodev10@gmail.com (Shibu Deb Polo)</author>
+        <atom:modified>Thu, 13 Aug 2020 13:18:58 +0600</atom:modified>
+        <guid>https://polodev.github.io/learning/bits/how-to-check-battery-health-and-battery-status-in-ubuntu-linux/</guid>
+        <description>using upower command upower command will give lot more information about battery, like battery health, battery vendor, battery model.
+battery model will help you to buy battery in case battery replacement
+1  upower -i /org/freedesktop/UPower/devices/battery_BAT0   here battery_BAT0 refer to first battery of your laptop
+if you using a laptop with extra battery like thinkpad t460s, t470s, You need to change battery index number to battery_BAT1.</description>
+        
+        <dc:creator>shibu</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>How to Check Cpu Info in Linux</title>
