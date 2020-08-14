@@ -1,7 +1,8 @@
 
 {{ $page_parmalink := .Permalink }}
 
-{{ if $.Param "series" }}
+
+{{ if and ($.Param "series") ( .Params.enableSeriesContent ) }}
 <div class="expand">
   <button type="button" class="expand__button" aria-label="Expand Button">
     <span class="expand-icon expand-icon__right">

@@ -28,6 +28,26 @@
   </url>
   
   <url>
+    <loc>https://polodev.github.io/learning/series/</loc>
+    <lastmod>2020-08-14T03:59:23+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://polodev.github.io/learning/ko/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://polodev.github.io/learning/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://polodev.github.io/learning/series/test/</loc>
+    <lastmod>2020-08-14T03:59:23+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://polodev.github.io/learning/bits/how-to-check-battery-health-and-battery-status-in-ubuntu-linux/</loc>
     <lastmod>2020-08-13T13:18:58+06:00</lastmod>
   </url>
@@ -239,20 +259,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://polodev.github.io/learning/bits-tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://polodev.github.io/learning/series/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://polodev.github.io/learning/ko/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://polodev.github.io/learning/series/"
                 />
   </url>
   

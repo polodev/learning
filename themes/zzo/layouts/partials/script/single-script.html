@@ -177,7 +177,9 @@
       // toc visibility
       var toggleTocElem = document.getElementById("toggle-toc");
       var visibleTocElem = document.getElementById('visible-toc');
+      var visibleSeriesElem = document.getElementById('visible-series');
       var tocElem = document.querySelector('.toc');
+      var seriesElem = document.querySelector('.series');
       var mainElem = document.querySelector('main');
       var sideElem = document.querySelector('side');
       var tocFlexboxElem = document.querySelector('.toc__flexbox');
@@ -228,6 +230,19 @@
         } else {
           if (tocElem) {
             fadeOut(tocElem, 200);
+          }
+        }
+      }) : null;
+
+      visibleTocElem ?
+      visibleTocElem.addEventListener('change', function(e) {
+        if (e.target.checked) {
+          if (seriesElem) {
+            fadeIn(seriesElem, 200);
+          }
+        } else {
+          if (seriesElem) {
+            fadeOut(seriesElem, 200);
           }
         }
       }) : null;

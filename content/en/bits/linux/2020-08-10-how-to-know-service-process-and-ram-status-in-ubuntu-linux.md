@@ -7,6 +7,10 @@ author: shibu
 hideToc: false
 enableToc: true
 enableTocContent: false
+enableSeries: true
+enableSeriesContent: false
+series:
+- test
 tocPosition: inner
 tocLevels: ["h2", "h3", "h4"]
 bit_tags:

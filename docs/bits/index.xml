@@ -40,6 +40,12 @@ dev/sda: Timing cached reads: 13614 MB in 1.99 seconds = 6837.31 MB/sec Timing b
         
         
         
+          
+            
+              <category>test</category>
+            
+          
+        
       </item>
       
       <item>
@@ -61,6 +67,12 @@ if you using a laptop with extra battery like thinkpad t460s, t470s, You need to
         
         
         
+          
+            
+              <category>test</category>
+            
+          
+        
       </item>
       
       <item>
@@ -80,6 +92,12 @@ Architecture: x86_64 CPU op-mode(s): 32-bit, 64-bit Byte Order: Little Endian Ad
         
         
         
+        
+          
+            
+              <category>test</category>
+            
+          
         
       </item>
       
@@ -103,6 +121,12 @@ To display the total amount of ram in ubuntu in megabyte mb unit
         
         
         
+          
+            
+              <category>test</category>
+            
+          
+        
       </item>
       
       <item>
@@ -123,6 +147,12 @@ Login to mysql To see which plugin used for specific user we need to login to ou
         
         
         
+        
+          
+            
+              <category>test</category>
+            
+          
         
       </item>
       

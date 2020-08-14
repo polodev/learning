@@ -1,20 +1,72 @@
+{{ $page_parmalink := .Permalink }}
+
 {{ if $.Param "enableSidebar" }}
-{{ if and (or ($.Param "enableToc") ($.Param "toc")) (ne ($.Param "tocPosition") "outer") }}
+{{ $is_toc_outer_enable :=  ( and (or ($.Param "enableToc") ($.Param "toc")) (ne ($.Param "tocPosition") "outer")) }}
+
+{{ $is_toc_enable := (or ($.Param "enableToc") ($.Param "toc")) }}
+{{ $is_series_enable := (or ($.Param "enableSeries") ($.Param "series")) }}
+
+
+
+{{ if or $is_toc_outer_enable $is_series_enable }}
 
 <section class="sidebar hide">
   <script>document.querySelector('.sidebar').classList.remove('hide')</script>
-  <div class="toc__flexbox" data-position="{{ if $.Param "hideToc" }}absolute{{ else }}fixed{{ end }}">
-    <h6 class="toc__title" data-ani="{{ $.Site.Params.enableUiAnimation | default "true" }}">{{ i18n "toc-label" }}</h6>
-    {{ if $.Param "enableTocSwitch" }}
-      <label class="switch" data-ani="{{ $.Site.Params.enableUiAnimation | default "true" }}">
-        <input id="toggle-toc" aria-label="Toggle TOC" type="checkbox" {{ if $.Param "hideToc" }}{{ else }}checked{{ end }}>
-        <span class="slider round"></span>
-      </label>
-    {{ end }}
-  </div>
-  <div class="toc {{ if $.Param "hideToc" }}hide{{ end }}" data-dir="{{ if ne ($.Param "languagedir") "rtl" }}ltr{{ else }}rtl{{ end }}" data-folding="{{ if $.Param "tocFolding" }}true{{ else }}false{{ end }}" data-ani="{{ $.Site.Params.enableUiAnimation | default "true" }}">
-    {{ .TableOfContents }}
-  </div>
+    <div class="toc__flexbox" data-position="{{ if $.Param "hideToc" }}absolute{{ else }}fixed{{ end }}">
+      <h6 class="toc__title" data-ani="{{ $.Site.Params.enableUiAnimation | default "true" }}">{{ i18n "toc-label" }}</h6>
+      {{ if $.Param "enableTocSwitch" }}
+        <label class="switch" data-ani="{{ $.Site.Params.enableUiAnimation | default "true" }}">
+          <input id="toggle-toc" aria-label="Toggle TOC" type="checkbox" {{ if $.Param "hideToc" }}{{ else }}checked{{ end }}>
+          <span class="slider round"></span>
+        </label>
+      {{ end }}
+    </div>
+
+    <div class="toc {{ if and ($.Param "hideToc") ($.Param "hideSeries")  }}hide{{ end }}" data-dir="{{ if ne ($.Param "languagedir") "rtl" }}ltr{{ else }}rtl{{ end }}" data-folding="{{ if $.Param "tocFolding" }}true{{ else }}false{{ end }}" data-ani="{{ $.Site.Params.enableUiAnimation | default "true" }}">
+      <div class="sidebar-toc">
+        <h4 class="mb-2">Table Of Contents</h4>
+        <hr>
+        {{ .TableOfContents }}
+      </div>
+        {{ if $is_series_enable }}
+          <div class="sidebar-series mt-4">
+            <h4 class="mb-2"> Series:  
+              {{ range (.GetTerms "series") }}
+                <a href="{{ .Permalink }}" class="single__tag" title="{{ .LinkTitle }}">{{ .LinkTitle }}</a>
+              {{ end }}
+            </h4>
+            <hr>
+            {{ $name := index .Params.series 0 }}
+            {{ $name := $name | urlize }}
+            {{ $series := index .Site.Taxonomies.series $name }}
+            <ul class="series">
+              {{ range $series.Pages.ByDate }}
+                <li>
+                  <!-- {{.Date.Format "Jan 02, 2006"}} - -->
+                  {{ if eq $page_parmalink .Permalink }}
+                    <span class="text-primary">CURRENT POST - </span>
+                    {{.LinkTitle}}
+                  {{ else }}
+                    <a href="{{.Permalink}}">{{.LinkTitle}}</a>
+                  {{ end }}
+              </li>
+              {{end}}
+            </ul>
+          </div>
+        {{ end}}
+
+
+
+
+
+    </div>
+
+  {{ if $is_series_enable }}
+    <!-- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo necessitatibus numquam doloremque perferendis, eius cupiditate perspiciatis consectetur ab a repudiandae, incidunt architecto soluta dolore? Labore minus esse voluptates aliquam atque! -->
+  {{end}}
+
+
+
 </section>
 
 {{ end }}

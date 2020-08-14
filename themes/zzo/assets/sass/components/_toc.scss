@@ -87,20 +87,49 @@
   &[data-dir="ltr"] {
     &[data-folding=true] {
       @include themify($themes) {
-        a {
-          color: themed('toc-vertical-line');
-          position: relative;
+        .sidebar-toc {
+          a {
+            color: themed('toc-vertical-line');
+            position: relative;
 
-          &::before {
-            content: '';
-            height: 100%;
-            left: -1rem;
-            margin-top: -1px;
-            position: absolute;
-            width: 2px;            
-            background-color: themed('toc-vertical-line');
-            &:last-child {
-              background-color: transparent;
+            &::before {
+              content: '';
+              height: 100%;
+              left: -1rem;
+              margin-top: -1px;
+              position: absolute;
+              width: 2px;            
+              background-color: themed('toc-vertical-line');
+              &:last-child {
+                background-color: transparent;
+              }
+            }
+          }
+        }
+        .sidebar-series{
+          ul.series {
+            li {
+              margin: 4px 0;
+              &:last-child {
+                border: none;
+              }
+              a {
+                color: themed('toc-vertical-line');
+                position: relative;
+
+                &::before {
+                  content: '';
+                  height: 100%;
+                  left: -1rem;
+                  margin-top: -1px;
+                  position: absolute;
+                  width: 2px;            
+                  background-color: themed('toc-vertical-line');
+                  &:last-child {
+                    background-color: transparent;
+                  }
+                }
+              }
             }
           }
         }

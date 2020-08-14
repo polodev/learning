@@ -7,8 +7,9 @@ author: shibu
 hideToc: false
 enableToc: true
 enableTocContent: false
-enableSeries: false
-enableSeriesContent: false
+hideSeries: false
+enableSeries: true
+enableSeriesContent: true
 tocPosition: inner
 tocLevels: ["h2", "h3", "h4"]
 tags:

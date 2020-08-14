@@ -8,6 +8,8 @@ author: shibu
 hideToc: false
 enableToc: true
 enableTocContent: false
+enableSeries: true
+enableSeriesContent: false
 tocPosition: inner
 tocLevels: ["h2", "h3", "h4"]
 bit_tags:
