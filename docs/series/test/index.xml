@@ -156,6 +156,60 @@ Login to mysql To see which plugin used for specific user we need to login to ou
         
       </item>
       
+      <item>
+        <title>How to Store Git Credential in Ubuntu Linux Using Libsecret</title>
+        <link>https://polodev.github.io/learning/bits/how-to-store-git-credential-in-ubuntu-linux-using-libsecret/</link>
+        <pubDate>Sat, 08 Aug 2020 20:45:41 +0600</pubDate>
+        <author>polodev10@gmail.com (Shibu Deb Polo)</author>
+        <atom:modified>Sat, 08 Aug 2020 20:45:41 +0600</atom:modified>
+        <guid>https://polodev.github.io/learning/bits/how-to-store-git-credential-in-ubuntu-linux-using-libsecret/</guid>
+        <description>Git credential storing using Libsecret Installing libsecret
+1  sudo apt install libsecret-1-0 libsecret-1-dev   Run make command for recompile
+1 2  cd /usr/share/doc/git/contrib/credential/libsecret sudo make   Update git credential.helper
+1  git config --global credential.helper /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret   Alternative - git cache credential helper If you don&amp;rsquo;t want to install anything you can use git credential helper.</description>
+        
+        <dc:creator>shibu</dc:creator>
+        
+        
+        
+        
+        
+        
+          
+            
+              <category>test</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>How to Clone a Git Project With Submodule</title>
+        <link>https://polodev.github.io/learning/bits/how-to-clone-a-git-project-with-submodule/</link>
+        <pubDate>Sat, 08 Aug 2020 20:44:11 +0600</pubDate>
+        <author>polodev10@gmail.com (Shibu Deb Polo)</author>
+        <atom:modified>Sat, 08 Aug 2020 20:44:11 +0600</atom:modified>
+        <guid>https://polodev.github.io/learning/bits/how-to-clone-a-git-project-with-submodule/</guid>
+        <description>Git clone and update submodule later clone the repository
+1  git clone &amp;lt;git repository&amp;gt;   You have to do two things to update submodule
+1 2  git submodule init git submodule update   Git cloning including submodules In git 2.13 version and later, &amp;ndash;recurse-submodules can be used instead of &amp;ndash;recursive:
+1  git clone --recurse-submodules -j8 git://github.</description>
+        
+        <dc:creator>shibu</dc:creator>
+        
+        
+        
+        
+        
+        
+          
+            
+              <category>test</category>
+            
+          
+        
+      </item>
+      
 
     
   </channel>

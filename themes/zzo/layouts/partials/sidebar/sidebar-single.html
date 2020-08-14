@@ -4,7 +4,7 @@
 {{ $is_toc_outer_enable :=  ( and (or ($.Param "enableToc") ($.Param "toc")) (ne ($.Param "tocPosition") "outer")) }}
 
 {{ $is_toc_enable := (or ($.Param "enableToc") ($.Param "toc")) }}
-{{ $is_series_enable := (or ($.Param "enableSeries") ($.Param "series")) }}
+{{ $is_series_enable := (and ($.Param "enableSeries") ($.Param "series")) }}
 
 
 

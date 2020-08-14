@@ -175,6 +175,12 @@ Login to mysql To see which plugin used for specific user we need to login to ou
         
         
         
+          
+            
+              <category>test</category>
+            
+          
+        
       </item>
       
       <item>
@@ -195,6 +201,12 @@ Login to mysql To see which plugin used for specific user we need to login to ou
         
         
         
+        
+          
+            
+              <category>test</category>
+            
+          
         
       </item>
       
