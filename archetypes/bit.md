@@ -14,6 +14,7 @@ tocPosition: inner
 tocLevels: ["h2", "h3", "h4"]
 tags:
 series:
+series_weight: 0
 categories:
 bit_tags:
 bit_categories:
