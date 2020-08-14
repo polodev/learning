@@ -7,17 +7,17 @@ draft: false
 author: shibu
 hideToc: false
 enableToc: true
-enableTocContent: false
+enableTocContent: true
 enableSeries: true
 enableSeriesContent: false
-series:
-- test
 tocPosition: inner
 tocLevels: ["h2", "h3", "h4"]
+tags:
+series:
+categories:
 bit_tags: 
 - git
 - submodule
-bit_series:
 bit_categories:
 - git
 image:

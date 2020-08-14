@@ -6,18 +6,19 @@ draft: false
 author: shibu
 hideToc: false
 enableToc: true
-enableTocContent: false
+enableTocContent: true
 enableSeries: true
 enableSeriesContent: false
-series:
-- test
 tocPosition: inner
 tocLevels: ["h2", "h3", "h4"]
+tags:
+series:
+- test
+categories:
 bit_tags:
 - linux
 - ubuntu
 - terminal-command
-bit_series:
 bit_categories:
 - linux
 image:

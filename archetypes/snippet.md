@@ -6,14 +6,15 @@ draft: false
 author: shibu
 hideToc: false
 enableToc: true
-enableTocContent: false
+enableTocContent: true
 hideSeries: false
 enableSeries: true
 enableSeriesContent: true
 tocPosition: inner
 tocLevels: ["h2", "h3", "h4"]
-snippet_tags:
+tags:
 series:
+categories:
 snippet_series:
 snippet_categories:
 image:

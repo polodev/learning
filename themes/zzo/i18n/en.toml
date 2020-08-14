@@ -38,7 +38,8 @@ other = "See Also"
 other = "WRITTEN BY"
 
 [toc-label]
-other = "Sidebar Contents"
+other = "What's on this Page"
+
 
 [series-label]
 other = "List of posts Under this Series"
