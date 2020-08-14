@@ -61,12 +61,6 @@ dev/sda: Timing cached reads: 13614 MB in 1.99 seconds = 6837.31 MB/sec Timing b
         
         
         
-          
-            
-              <category>test</category>
-            
-          
-        
       </item>
       
       <item>
@@ -169,12 +163,6 @@ Login to mysql To see which plugin used for specific user we need to login to ou
         
         
         
-          
-            
-              <category>test</category>
-            
-          
-        
       </item>
       
       <item>
@@ -196,12 +184,6 @@ Login to mysql To see which plugin used for specific user we need to login to ou
         
         
         
-          
-            
-              <category>test</category>
-            
-          
-        
       </item>
       
       <item>
@@ -222,12 +204,6 @@ Login to mysql To see which plugin used for specific user we need to login to ou
         
         
         
-        
-          
-            
-              <category>test</category>
-            
-          
         
       </item>
       

@@ -14,39 +14,13 @@
     <managingEditor>polodev10@gmail.com (Shibu Deb Polo)</managingEditor>
     <webMaster>polodev10@gmail.com (Shibu Deb Polo)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 14 Aug 2020 03:59:23 +0600</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2020 13:18:58 +0600</lastBuildDate>
     
         <atom:link href="https://polodev.github.io/learning/series/test/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
-      
-      <item>
-        <title>How to Check SSD and Hard disk Performance in Ubuntu Linux</title>
-        <link>https://polodev.github.io/learning/bits/how-to-check-ssd-and-hard-disk-performance-in-ubuntu-linux/</link>
-        <pubDate>Fri, 14 Aug 2020 03:59:23 +0600</pubDate>
-        <author>polodev10@gmail.com (Shibu Deb Polo)</author>
-        <atom:modified>Fri, 14 Aug 2020 03:59:23 +0600</atom:modified>
-        <guid>https://polodev.github.io/learning/bits/how-to-check-ssd-and-hard-disk-performance-in-ubuntu-linux/</guid>
-        <description>hdparam command in teminal using hdparm command we can check ssd or har disk perfomance
-1  sudo hdparm -Tt /dev/sda   following output I am getting in terminal
-dev/sda: Timing cached reads: 13614 MB in 1.99 seconds = 6837.31 MB/sec Timing buffered disk reads: 874 MB in 3.02 seconds = 289.78 MB/sec dd command for write speed To know about write speed we can run a loop to copy and delete file</description>
-        
-        <dc:creator>shibu</dc:creator>
-        
-        
-        
-        
-        
-        
-          
-            
-              <category>test</category>
-            
-          
-        
-      </item>
       
       <item>
         <title>How to Check Battery Health and Battery Status in Ubuntu Linux</title>
@@ -113,87 +87,6 @@ Architecture: x86_64 CPU op-mode(s): 32-bit, 64-bit Byte Order: Little Endian Ad
 To display the total amount of ram in ubuntu in megabyte mb unit
 1  free -m   To display the total amount of ram in ubuntu in human friendly unit
 1  free -h   To display RAM type and speed, use the command:</description>
-        
-        <dc:creator>shibu</dc:creator>
-        
-        
-        
-        
-        
-        
-          
-            
-              <category>test</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>How to Replace Auth Socket by Mysql Native Password</title>
-        <link>https://polodev.github.io/learning/bits/how-to-replace-auth-socket-by-mysql-native-password/</link>
-        <pubDate>Sun, 09 Aug 2020 11:43:43 +0600</pubDate>
-        <author>polodev10@gmail.com (Shibu Deb Polo)</author>
-        <atom:modified>Sun, 09 Aug 2020 11:43:43 +0600</atom:modified>
-        <guid>https://polodev.github.io/learning/bits/how-to-replace-auth-socket-by-mysql-native-password/</guid>
-        <description>Initially, default mysql settings, comes with &amp;ldquo;auth_socket&amp;rdquo; plugin for root user.
-In my case I was unable to login to phpmyadmin from web browser using root user
-Login to mysql To see which plugin used for specific user we need to login to our mysql from command line
-1  sudo mysql -uroot   Plugin used for user in mysql Once we login to mysql, we can view current used plugin for user, using following code</description>
-        
-        <dc:creator>shibu</dc:creator>
-        
-        
-        
-        
-        
-        
-          
-            
-              <category>test</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>How to Store Git Credential in Ubuntu Linux Using Libsecret</title>
-        <link>https://polodev.github.io/learning/bits/how-to-store-git-credential-in-ubuntu-linux-using-libsecret/</link>
-        <pubDate>Sat, 08 Aug 2020 20:45:41 +0600</pubDate>
-        <author>polodev10@gmail.com (Shibu Deb Polo)</author>
-        <atom:modified>Sat, 08 Aug 2020 20:45:41 +0600</atom:modified>
-        <guid>https://polodev.github.io/learning/bits/how-to-store-git-credential-in-ubuntu-linux-using-libsecret/</guid>
-        <description>Git credential storing using Libsecret Installing libsecret
-1  sudo apt install libsecret-1-0 libsecret-1-dev   Run make command for recompile
-1 2  cd /usr/share/doc/git/contrib/credential/libsecret sudo make   Update git credential.helper
-1  git config --global credential.helper /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret   Alternative - git cache credential helper If you don&amp;rsquo;t want to install anything you can use git credential helper.</description>
-        
-        <dc:creator>shibu</dc:creator>
-        
-        
-        
-        
-        
-        
-          
-            
-              <category>test</category>
-            
-          
-        
-      </item>
-      
-      <item>
-        <title>How to Clone a Git Project With Submodule</title>
-        <link>https://polodev.github.io/learning/bits/how-to-clone-a-git-project-with-submodule/</link>
-        <pubDate>Sat, 08 Aug 2020 20:44:11 +0600</pubDate>
-        <author>polodev10@gmail.com (Shibu Deb Polo)</author>
-        <atom:modified>Sat, 08 Aug 2020 20:44:11 +0600</atom:modified>
-        <guid>https://polodev.github.io/learning/bits/how-to-clone-a-git-project-with-submodule/</guid>
-        <description>Git clone and update submodule later clone the repository
-1  git clone &amp;lt;git repository&amp;gt;   You have to do two things to update submodule
-1 2  git submodule init git submodule update   Git cloning including submodules In git 2.13 version and later, &amp;ndash;recurse-submodules can be used instead of &amp;ndash;recursive:
-1  git clone --recurse-submodules -j8 git://github.</description>
         
         <dc:creator>shibu</dc:creator>
         
