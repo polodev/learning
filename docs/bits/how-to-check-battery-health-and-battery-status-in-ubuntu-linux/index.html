@@ -1277,7 +1277,7 @@
     "datePublished": "2020-08-13T13:18:58+06:00",
     "dateModified": "2020-08-13T13:18:58+06:00",
     "url" : "https://polodev.github.io/learning/bits/how-to-check-battery-health-and-battery-status-in-ubuntu-linux/",
-    "description": "using upower command upower command will give lot more information about battery, like battery health, battery vendor, battery model. battery model will help you to buy …",
+    "description": "using upower command upower command will give you lot more information about battery, like battery health, battery vendor, battery model. Battery model will help you to …",
     "author": {
       "@type": "Person",
       "name": "shibu"
@@ -1692,8 +1692,8 @@
 </div>
 
       <h2 id="using-upower-command">using <code>upower</code> command</h2>
-<p>upower command will give lot more information about battery, like battery health, battery vendor, battery model.</p>
-<p>battery model will help you to buy battery in case battery replacement</p>
+<p>upower command will give you lot more information about battery, like battery health, battery vendor, battery model.</p>
+<p>Battery model will help you to buy battery in case battery replacement.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -1702,8 +1702,9 @@
 <pre class="chroma"><code class="language-bash" data-lang="bash">upower -i /org/freedesktop/UPower/devices/battery_BAT0
 </code></pre></td></tr></table>
 </div>
-</div><p>here <code>battery_BAT0</code> refer to first battery of your laptop</p>
-<p>if you using a laptop with extra battery like thinkpad t460s, t470s, You need to change battery index number to  <code>battery_BAT1</code>. So command will be following</p>
+</div><p>Here <code>battery_BAT0</code> refer to first battery of your laptop</p>
+<p>If you using a laptop with extra battery like thinkpad t460s, t470s, You need to change battery index number to  <code>battery_BAT1</code> in case of, you want to know about second battery.<br />
+So command will be following</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -1712,7 +1713,7 @@
 <pre class="chroma"><code class="language-bash" data-lang="bash">upower -i /org/freedesktop/UPower/devices/battery_BAT1
 </code></pre></td></tr></table>
 </div>
-</div><p>In my case I am getting following output in my terminal</p>
+</div><p>In my case, I am getting following output in my terminal</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
@@ -1776,8 +1777,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><h2 id="using-acpi-command">using acpi command</h2>
-<p>I found, I need only <code>upower</code> command to know more about my battery health and status</p>
-<p>First install <code>acpi-tool</code></p>
+<p>First install <code>acpi-tool</code>   and <code>acpi</code> package</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -1794,7 +1794,7 @@
 <pre class="chroma"><code class="language-bash" data-lang="bash">sudo apt install acpi
 </code></pre></td></tr></table>
 </div>
-</div><p>just <code>acpi</code> command will show battery status</p>
+</div><p><code>acpi</code> command will show basic battery status</p>
 <p>I am getting following output from acpi commands</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">

@@ -26,23 +26,24 @@ image:
 
 
 ## using `upower` command
-upower command will give lot more information about battery, like battery health, battery vendor, battery model. 
+upower command will give you lot more information about battery, like battery health, battery vendor, battery model. 
 
-battery model will help you to buy battery in case battery replacement 
+Battery model will help you to buy battery in case battery replacement.
 
 ~~~bash
 upower -i /org/freedesktop/UPower/devices/battery_BAT0
 ~~~
 
-here `battery_BAT0` refer to first battery of your laptop
+Here `battery_BAT0` refer to first battery of your laptop
 
-if you using a laptop with extra battery like thinkpad t460s, t470s, You need to change battery index number to  `battery_BAT1`. So command will be following 
+If you using a laptop with extra battery like thinkpad t460s, t470s, You need to change battery index number to  `battery_BAT1` in case of, you want to know about second battery.
+So command will be following 
 
 ~~~bash
 upower -i /org/freedesktop/UPower/devices/battery_BAT1
 ~~~
 
-In my case I am getting following output in my terminal
+In my case, I am getting following output in my terminal
 
 ~~~bash
   native-path:          BAT1
@@ -77,9 +78,7 @@ In my case I am getting following output in my terminal
 
 ## using acpi command 
 
-I found, I need only `upower` command to know more about my battery health and status
-
-First install `acpi-tool`  
+First install `acpi-tool`   and `acpi` package
 
 ~~~bash
 snap install acpi-tools
@@ -89,7 +88,7 @@ snap install acpi-tools
 sudo apt install acpi
 ~~~
 
-just `acpi` command will show battery status
+`acpi` command will show basic battery status
 
 I am getting following output from acpi commands 
 
