@@ -14,13 +14,49 @@
     <managingEditor>polodev10@gmail.com (Shibu Deb Polo)</managingEditor>
     <webMaster>polodev10@gmail.com (Shibu Deb Polo)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 08 Aug 2020 18:37:38 +0600</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2020 11:57:24 +0600</lastBuildDate>
     
         <atom:link href="https://polodev.github.io/learning/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>linux</title>
+        <link>https://polodev.github.io/learning/tags/linux/</link>
+        <pubDate>Sun, 16 Aug 2020 11:57:24 +0600</pubDate>
+        <author>polodev10@gmail.com (Shibu Deb Polo)</author>
+        
+        <guid>https://polodev.github.io/learning/tags/linux/</guid>
+        <description></description>
+        
+        <dc:creator>Shibu Deb Polo</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>software-installation</title>
+        <link>https://polodev.github.io/learning/tags/software-installation/</link>
+        <pubDate>Sun, 16 Aug 2020 11:57:24 +0600</pubDate>
+        <author>polodev10@gmail.com (Shibu Deb Polo)</author>
+        
+        <guid>https://polodev.github.io/learning/tags/software-installation/</guid>
+        <description></description>
+        
+        <dc:creator>Shibu Deb Polo</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>wordpress</title>

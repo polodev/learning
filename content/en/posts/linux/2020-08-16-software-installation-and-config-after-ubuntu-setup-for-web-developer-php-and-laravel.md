@@ -122,7 +122,7 @@ sudo apt install php7.4 php7.4-xml php7.4-gd php7.4-opcache php7.4-mbstring php7
 
 ## Remove apache due to auto install
 
-Incase of laravel valet, we might to remove apache 
+In case of laravel valet, we might to remove apache 
 
 ~~~bash
 sudo apt purge apache2 apache2-utils apache2-bin apache2.2-common

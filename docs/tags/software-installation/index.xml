@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Posts on IB Authors</title>
-    <link>https://polodev.github.io/learning/posts/</link>
-    <description>Recent content in Posts on IB Authors</description>
+    <title>software-installation on IB Authors</title>
+    <link>https://polodev.github.io/learning/tags/software-installation/</link>
+    <description>Recent content in software-installation on IB Authors</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>polodev10@gmail.com (Shibu Deb Polo)</managingEditor>
@@ -16,7 +16,7 @@
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sun, 16 Aug 2020 11:57:24 +0600</lastBuildDate>
     
-        <atom:link href="https://polodev.github.io/learning/posts/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://polodev.github.io/learning/tags/software-installation/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -50,41 +50,6 @@
           
             
               <category>linux</category>
-            
-          
-        
-        
-      </item>
-      
-      <item>
-        <title>Ajax in Wordpress Using Admin Ajax.php</title>
-        <link>https://polodev.github.io/learning/posts/ajax-in-wordpress-using-admin-ajax.php/</link>
-        <pubDate>Sat, 08 Aug 2020 18:37:38 +0600</pubDate>
-        <author>polodev10@gmail.com (Shibu Deb Polo)</author>
-        <atom:modified>Sat, 08 Aug 2020 18:37:38 +0600</atom:modified>
-        <guid>https://polodev.github.io/learning/posts/ajax-in-wordpress-using-admin-ajax.php/</guid>
-        <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, libero. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur nostrum mollitia nulla temporibus eaque quas laborum iusto, voluptatibus, dolor optio consectetur autem atque sapiente. Eveniet rem fugit illum odio rerum.
-Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur nostrum mollitia nulla temporibus eaque quas laborum iusto, voluptatibus, dolor optio consectetur autem atque sapiente.</description>
-        
-        <dc:creator>shibu</dc:creator>
-        
-        
-        
-        
-          
-            
-              <category>wordpress</category>
-            
-          
-            
-              <category>wordpress-ajax</category>
-            
-          
-        
-        
-          
-            
-              <category>wordpress</category>
             
           
         
