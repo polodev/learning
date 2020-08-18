@@ -207,8 +207,8 @@ Login to mysql To see which plugin used for specific user we need to login to ou
         <atom:modified>Sat, 08 Aug 2020 20:45:41 +0600</atom:modified>
         <guid>https://polodev.github.io/learning/bits/how-to-store-git-credential-in-ubuntu-linux-using-libsecret/</guid>
         <description>Git credential storing using Libsecret Installing libsecret
-1  sudo apt install libsecret-1-0 libsecret-1-dev   Run make command for recompile
-1 2  cd /usr/share/doc/git/contrib/credential/libsecret sudo make   Update git credential.helper
+1  sudo apt install libsecret-1-0 libsecret-1-dev   Run make command for recompile. If you don&amp;rsquo;t have make command accessible install build essential
+1  sudo apt install build-essential   1 2  cd /usr/share/doc/git/contrib/credential/libsecret sudo make   Update git credential.helper
 1  git config --global credential.helper /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret   Alternative - git cache credential helper If you don&amp;rsquo;t want to install anything you can use git credential helper.</description>
         
         <dc:creator>shibu</dc:creator>

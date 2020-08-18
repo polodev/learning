@@ -71,9 +71,9 @@ chsh -s $(which zsh)
 
 first create a `.fonts` folder in home directory   
 
-~~~bash
-mkdir ~/.fonts
-~~~
+~~~bash      
+ mkdir ~/.fonts
+~~~   
 
 Install powerline font    
 
@@ -213,17 +213,17 @@ Add valet using composer
 composer global require cpriego/valet-linux
 ~~~
 
-Install valet by following command.
-~~~bash
+Install valet by following command.    
+             
+~~~      
 valet install
 ~~~
 
 For parking a folder to valet 
-
-~~~bash
+             
+~~~      
 valet park
 ~~~
-
 
 ## Installing Node using nvm
 
@@ -261,7 +261,7 @@ nvm install 14
 
 To use a node version
 
-~~~bash
+~~~
 nvm use 8
 ~~~
 

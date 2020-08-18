@@ -32,16 +32,22 @@ Installing libsecret
 sudo apt install libsecret-1-0 libsecret-1-dev
 ~~~
 
-Run `make` command for recompile 
+
+
+Run `make` command for recompile. If you don't have `make`  command accessible install build essential 
 
 ~~~bash
+sudo apt install build-essential
+~~~
+
+~~~bash     
 cd /usr/share/doc/git/contrib/credential/libsecret
 sudo make
 ~~~
 
 Update git `credential.helper`
 
-~~~bash
+~~~bash        
 git config --global credential.helper /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret
 ~~~
 
