@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>laravel on IB Authors</title>
+    <link>https://polodev.github.io/learning/tags/laravel/</link>
+    <description>Recent content in laravel on IB Authors</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>polodev10@gmail.com (Shibu Deb Polo)</managingEditor>
+    <webMaster>polodev10@gmail.com (Shibu Deb Polo)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 21 Aug 2020 01:31:47 +0600</lastBuildDate>
+    
+        <atom:link href="https://polodev.github.io/learning/tags/laravel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>How to Add Slug as Default Route Key in Laravel</title>
+        <link>https://polodev.github.io/learning/posts/how-to-add-slug-as-default-route-key-in-laravel/</link>
+        <pubDate>Fri, 21 Aug 2020 01:31:47 +0600</pubDate>
+        <author>polodev10@gmail.com (Shibu Deb Polo)</author>
+        <atom:modified>Fri, 21 Aug 2020 01:31:47 +0600</atom:modified>
+        <guid>https://polodev.github.io/learning/posts/how-to-add-slug-as-default-route-key-in-laravel/</guid>
+        <description>Earlier one of my laravel project used id as route key name. I have found, slug is more readable/memorable.
+So instead of using id I started to use slug as route key name.
+laravel-sluggable While create a post, we can generate a slug by our own. To do this we can use Str::slug method and append some unique value to make it unique.</description>
+        
+        <dc:creator>shibu</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>laravel</category>
+            
+          
+            
+              <category>slug</category>
+            
+          
+        
+        
+          
+            
+              <category>laravel</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://polodev.github.io/learning/</loc>
-    <lastmod>2020-08-16T11:57:24+06:00</lastmod>
+    <lastmod>2020-08-21T01:31:47+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -19,7 +19,7 @@
   
   <url>
     <loc>https://polodev.github.io/learning/categories/</loc>
-    <lastmod>2020-08-16T11:57:24+06:00</lastmod>
+    <lastmod>2020-08-21T01:31:47+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -29,6 +29,56 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://polodev.github.io/learning/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://polodev.github.io/learning/posts/how-to-add-slug-as-default-route-key-in-laravel/</loc>
+    <lastmod>2020-08-21T01:31:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://polodev.github.io/learning/tags/laravel/</loc>
+    <lastmod>2020-08-21T01:31:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://polodev.github.io/learning/categories/laravel/</loc>
+    <lastmod>2020-08-21T01:31:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://polodev.github.io/learning/posts/</loc>
+    <lastmod>2020-08-21T01:31:47+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://polodev.github.io/learning/ko/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://polodev.github.io/learning/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://polodev.github.io/learning/tags/slug/</loc>
+    <lastmod>2020-08-21T01:31:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://polodev.github.io/learning/tags/</loc>
+    <lastmod>2020-08-21T01:31:47+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://polodev.github.io/learning/ko/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://polodev.github.io/learning/tags/"
                 />
   </url>
   
@@ -43,21 +93,6 @@
   </url>
   
   <url>
-    <loc>https://polodev.github.io/learning/posts/</loc>
-    <lastmod>2020-08-16T11:57:24+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://polodev.github.io/learning/ko/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://polodev.github.io/learning/posts/"
-                />
-  </url>
-  
-  <url>
     <loc>https://polodev.github.io/learning/posts/software-installation-and-config-after-ubuntu-setup-for-web-developer-laravel/</loc>
     <lastmod>2020-08-16T11:57:24+06:00</lastmod>
   </url>
@@ -65,21 +100,6 @@
   <url>
     <loc>https://polodev.github.io/learning/tags/software-installation/</loc>
     <lastmod>2020-08-16T11:57:24+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://polodev.github.io/learning/tags/</loc>
-    <lastmod>2020-08-16T11:57:24+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://polodev.github.io/learning/ko/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://polodev.github.io/learning/tags/"
-                />
   </url>
   
   <url>
