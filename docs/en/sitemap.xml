@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://polodev.github.io/learning/</loc>
-    <lastmod>2020-08-21T01:31:47+06:00</lastmod>
+    <lastmod>2020-08-23T04:51:54+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -18,8 +18,13 @@
   </url>
   
   <url>
+    <loc>https://polodev.github.io/learning/bits/</loc>
+    <lastmod>2020-08-23T04:51:54+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://polodev.github.io/learning/categories/</loc>
-    <lastmod>2020-08-21T01:31:47+06:00</lastmod>
+    <lastmod>2020-08-23T04:51:54+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -30,6 +35,16 @@
                 hreflang="en"
                 href="https://polodev.github.io/learning/categories/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://polodev.github.io/learning/bits/how-to-disable-submit-button-once-it-has-been-clicked/</loc>
+    <lastmod>2020-08-23T04:51:54+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://polodev.github.io/learning/categories/html/</loc>
+    <lastmod>2020-08-23T04:51:54+06:00</lastmod>
   </url>
   
   <url>
@@ -100,11 +115,6 @@
   <url>
     <loc>https://polodev.github.io/learning/tags/software-installation/</loc>
     <lastmod>2020-08-16T11:57:24+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://polodev.github.io/learning/bits/</loc>
-    <lastmod>2020-08-14T03:59:23+06:00</lastmod>
   </url>
   
   <url>

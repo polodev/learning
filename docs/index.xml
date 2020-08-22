@@ -14,7 +14,7 @@
     <managingEditor>polodev10@gmail.com (Shibu Deb Polo)</managingEditor>
     <webMaster>polodev10@gmail.com (Shibu Deb Polo)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 21 Aug 2020 01:31:47 +0600</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2020 04:51:54 +0600</lastBuildDate>
     
         <atom:link href="https://polodev.github.io/learning/index.xml" rel="self" type="application/rss+xml" />
     
@@ -42,6 +42,32 @@
         
       
 
+      
+      <item>
+        <title>How to Disable Submit Button Once It Has Been Clicked</title>
+        <link>https://polodev.github.io/learning/bits/how-to-disable-submit-button-once-it-has-been-clicked/</link>
+        <pubDate>Sun, 23 Aug 2020 04:51:54 +0600</pubDate>
+        <author>polodev10@gmail.com (Shibu Deb Polo)</author>
+        <atom:modified>Sun, 23 Aug 2020 04:51:54 +0600</atom:modified>
+        <guid>https://polodev.github.io/learning/bits/how-to-disable-submit-button-once-it-has-been-clicked/</guid>
+        <description>Whenever form submitted with media, It will take time to process. Since it require time to upload then process the form.
+In this case, If user click this button again, form submit again. Eventually we are having duplicate, sometimes 3/4 form submission happen simultaneously. Which is not expected.
+To get rid such circumstance, we will disable submit button, once user click this button.</description>
+        
+        <dc:creator>shibu</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>html</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>How to Add Slug as Default Route Key in Laravel</title>
