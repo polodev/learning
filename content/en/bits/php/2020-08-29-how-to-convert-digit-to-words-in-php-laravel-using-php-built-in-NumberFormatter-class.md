@@ -44,7 +44,7 @@ In my case, I am using ubuntu server. I required to install `php7.3-intl`  exten
 sudo apt install php7.3-intl
 ~~~
 
-I am using `php7.3` version. Hence, I have install `php7.3-intl`.          
+I am using `php7.3` version. Hence, I have installed `php7.3-intl`.          
 Let you are using `php7.4`, in this case your extension will be `php7.4-intl`       
 
 Once you've install extension, you need to enable extension from your `php.ini` setting file     
@@ -53,7 +53,7 @@ Once you've install extension, you need to enable extension from your `php.ini` 
 extension=intl
 ~~~
 
-I am using apache server. So my php.ini file location was 
+I am using apache server. So my php.ini file location is 
 ~~~bash
 /etc/php/7.3/apache2/php.ini
 ~~~
@@ -63,25 +63,3 @@ Once, you have changed in php.ini file, You need to restart your apache2 server
 ~~~bash
 sudo service apache2 restart
 ~~~
-
-
-
-
-
-
-
-
-
-
-
-
-In my case, I am using ubuntu server. I required to install `sudo apt install php7.2-intl` 
-
-
-
-
-
-
-
-
-
