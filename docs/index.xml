@@ -14,7 +14,7 @@
     <managingEditor>polodev10@gmail.com (Shibu Deb Polo)</managingEditor>
     <webMaster>polodev10@gmail.com (Shibu Deb Polo)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 23 Aug 2020 04:51:54 +0600</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2020 03:45:45 +0600</lastBuildDate>
     
         <atom:link href="https://polodev.github.io/learning/index.xml" rel="self" type="application/rss+xml" />
     
@@ -42,6 +42,74 @@
         
       
 
+      
+      <item>
+        <title>How to Add Block Cursor in Vim Specially in  Like Gitbash Vim Editor</title>
+        <link>https://polodev.github.io/learning/bits/how-to-add-block-cursor-in-vim-specially-in-like-gitbash-vim-editor/</link>
+        <pubDate>Sat, 29 Aug 2020 03:45:45 +0600</pubDate>
+        <author>polodev10@gmail.com (Shibu Deb Polo)</author>
+        <atom:modified>Sat, 29 Aug 2020 03:45:45 +0600</atom:modified>
+        <guid>https://polodev.github.io/learning/bits/how-to-add-block-cursor-in-vim-specially-in-like-gitbash-vim-editor/</guid>
+        <description>.vimrc In windows gitbash vim / Cygwin vim / linux subsystem terminal, switching between line cursor and block cursor not happened automatically.
+I feel uncomfortable when writing inside vim. since, I can&amp;rsquo;t distinguish between command mode and normal mode.
+To get a block cursor in Vim in the Cygwin terminal write following code in .vimrc file
+1 2 3 4  let &amp;amp;t_ti.</description>
+        
+        <dc:creator>shibu</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>How to Convert Digit to Words in Php Laravel Using Php Built in NumberFormatter Class</title>
+        <link>https://polodev.github.io/learning/bits/how-to-convert-digit-to-words-in-php-laravel-using-php-built-in-numberformatter-class/</link>
+        <pubDate>Sat, 29 Aug 2020 03:27:07 +0600</pubDate>
+        <author>polodev10@gmail.com (Shibu Deb Polo)</author>
+        <atom:modified>Sat, 29 Aug 2020 03:27:07 +0600</atom:modified>
+        <guid>https://polodev.github.io/learning/bits/how-to-convert-digit-to-words-in-php-laravel-using-php-built-in-numberformatter-class/</guid>
+        <description>NumberFormatter We can convert number to string using php built in class NumberFormatter .
+1 2 3 4  &amp;lt;?php $digit = new NumberFormatter(&amp;#34;en&amp;#34;, NumberFormatter::SPELLOUT); echo $digit-&amp;gt;format(264); // output will be &amp;#34;two thousand&amp;#34;   Troubleshooting: You need to enable php_intl extension, when using NumberFormatter class. You can enable this from php.ini setting file.
+In my case, I am using ubuntu server.</description>
+        
+        <dc:creator>shibu</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>php</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>How to Get List of User by List of Email Using Eloquent Query in Laravel</title>
+        <link>https://polodev.github.io/learning/bits/how-to-get-list-of-user-by-list-of-email-using-eloquent-query-in-laravel/</link>
+        <pubDate>Thu, 27 Aug 2020 03:24:56 +0600</pubDate>
+        <author>polodev10@gmail.com (Shibu Deb Polo)</author>
+        <atom:modified>Thu, 27 Aug 2020 03:24:56 +0600</atom:modified>
+        <guid>https://polodev.github.io/learning/bits/how-to-get-list-of-user-by-list-of-email-using-eloquent-query-in-laravel/</guid>
+        <description>user Laravel eloquent, we can select all users from arrays of emails.
+I made a cart application. Where I required to get list of users from list of emails(order emails).
+Using whereIn eloquent method we can easily fetch array of users from database.
+1 2  User::whereIn(&amp;#39;email&amp;#39;, [&amp;#39;polodev10@gmail.com&amp;#39;, &amp;#39;company@gmail.com&amp;#39;, &amp;#39;milky@gmail.com&amp;#39;]) -&amp;gt;get();   In my case, I required to fetch, array of user ids.</description>
+        
+        <dc:creator>shibu</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>How to Disable Submit Button Once It Has Been Clicked</title>

@@ -14,13 +14,31 @@
     <managingEditor>polodev10@gmail.com (Shibu Deb Polo)</managingEditor>
     <webMaster>polodev10@gmail.com (Shibu Deb Polo)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 23 Aug 2020 04:51:54 +0600</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2020 03:27:07 +0600</lastBuildDate>
     
         <atom:link href="https://polodev.github.io/learning/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>php</title>
+        <link>https://polodev.github.io/learning/categories/php/</link>
+        <pubDate>Sat, 29 Aug 2020 03:27:07 +0600</pubDate>
+        <author>polodev10@gmail.com (Shibu Deb Polo)</author>
+        
+        <guid>https://polodev.github.io/learning/categories/php/</guid>
+        <description></description>
+        
+        <dc:creator>Shibu Deb Polo</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>html</title>

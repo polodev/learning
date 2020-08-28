@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://polodev.github.io/learning/</loc>
-    <lastmod>2020-08-23T04:51:54+06:00</lastmod>
+    <lastmod>2020-08-29T03:45:45+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -19,12 +19,17 @@
   
   <url>
     <loc>https://polodev.github.io/learning/bits/</loc>
-    <lastmod>2020-08-23T04:51:54+06:00</lastmod>
+    <lastmod>2020-08-29T03:45:45+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://polodev.github.io/learning/bits/how-to-add-block-cursor-in-vim-specially-in-like-gitbash-vim-editor/</loc>
+    <lastmod>2020-08-29T03:45:45+06:00</lastmod>
   </url>
   
   <url>
     <loc>https://polodev.github.io/learning/categories/</loc>
-    <lastmod>2020-08-23T04:51:54+06:00</lastmod>
+    <lastmod>2020-08-29T03:27:07+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -35,6 +40,21 @@
                 hreflang="en"
                 href="https://polodev.github.io/learning/categories/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://polodev.github.io/learning/bits/how-to-convert-digit-to-words-in-php-laravel-using-php-built-in-numberformatter-class/</loc>
+    <lastmod>2020-08-29T03:27:07+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://polodev.github.io/learning/categories/php/</loc>
+    <lastmod>2020-08-29T03:27:07+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://polodev.github.io/learning/bits/how-to-get-list-of-user-by-list-of-email-using-eloquent-query-in-laravel/</loc>
+    <lastmod>2020-08-27T03:24:56+06:00</lastmod>
   </url>
   
   <url>
