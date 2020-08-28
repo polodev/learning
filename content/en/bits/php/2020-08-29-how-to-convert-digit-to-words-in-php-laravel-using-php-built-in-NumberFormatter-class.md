@@ -31,7 +31,7 @@ We can convert number to string using php built in class `NumberFormatter` .
 <?php
 $digit = new NumberFormatter("en", NumberFormatter::SPELLOUT);
 echo $digit->format(264);
-// output will be "two thousand"
+// output will be "two hundred sixty-four"
 ~~~
 
 ## Troubleshooting:
