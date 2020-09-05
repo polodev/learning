@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>javascript on IB Authors</title>
+    <link>https://polodev.github.io/learning/categories/javascript/</link>
+    <description>Recent content in javascript on IB Authors</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>polodev10@gmail.com (Shibu Deb Polo)</managingEditor>
+    <webMaster>polodev10@gmail.com (Shibu Deb Polo)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 05 Sep 2020 02:52:26 +0600</lastBuildDate>
+    
+        <atom:link href="https://polodev.github.io/learning/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>How to Add Progress Bar in Basic Form Submission to Get Rid of Form Resubmission and Showing Indication</title>
+        <link>https://polodev.github.io/learning/bits/how-to-add-progress-bar-in-basic-form-submission-to-get-rid-of-form-resubmission-and-showing-indication/</link>
+        <pubDate>Sat, 05 Sep 2020 02:52:26 +0600</pubDate>
+        <author>polodev10@gmail.com (Shibu Deb Polo)</author>
+        <atom:modified>Sat, 05 Sep 2020 02:52:26 +0600</atom:modified>
+        <guid>https://polodev.github.io/learning/bits/how-to-add-progress-bar-in-basic-form-submission-to-get-rid-of-form-resubmission-and-showing-indication/</guid>
+        <description>Few days ago, I created a form for submitting user information.
+It required to upload lot of images. which actually takes time. Since, it wasn&amp;rsquo;t a ajax form, I was unable to add any indication that &amp;ldquo;form is submitting&amp;rdquo;
+So, after tinkering little time, I found a solution. which is below
+html part just giving a id to the form</description>
+        
+        <dc:creator>shibu</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>javascript</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
