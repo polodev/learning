@@ -29,7 +29,7 @@ Few days ago, I created a form for submitting user information.
 It required to upload lot of images. which actually takes time.    
 Since, it wasn't a ajax form, I was unable to  add any indication that "form is submitting"
 
-Follwing method progess element adding solve 2 problems
+Adding Progress element using following method solve 2 problems: 
 
 *  Help to rid of form Resubmission     
 * Giving indication to user about form submission
