@@ -23,16 +23,16 @@
 
       
       <item>
-        <title>How to Add Progress Bar in Basic Form Submission to Get Rid of Form Resubmission and Showing Indication</title>
-        <link>https://polodev.github.io/learning/bits/how-to-add-progress-bar-in-basic-form-submission-to-get-rid-of-form-resubmission-and-showing-indication/</link>
+        <title>How to Add Progress Bar in Basic Form Submission to Get Rid of Form Resubmission</title>
+        <link>https://polodev.github.io/learning/bits/how-to-add-progress-bar-in-basic-form-submission-to-get-rid-of-form-resubmission/</link>
         <pubDate>Sat, 05 Sep 2020 02:52:26 +0600</pubDate>
         <author>polodev10@gmail.com (Shibu Deb Polo)</author>
         <atom:modified>Sat, 05 Sep 2020 02:52:26 +0600</atom:modified>
-        <guid>https://polodev.github.io/learning/bits/how-to-add-progress-bar-in-basic-form-submission-to-get-rid-of-form-resubmission-and-showing-indication/</guid>
+        <guid>https://polodev.github.io/learning/bits/how-to-add-progress-bar-in-basic-form-submission-to-get-rid-of-form-resubmission/</guid>
         <description>Few days ago, I created a form for submitting user information.
 It required to upload lot of images. which actually takes time. Since, it wasn&amp;rsquo;t a ajax form, I was unable to add any indication that &amp;ldquo;form is submitting&amp;rdquo;
-So, after tinkering little time, I found a solution. which is below
-html part just giving a id to the form</description>
+Adding Progress element using following method solve 2 problems:
+ Help to rid of form Resubmission Giving indication to user about form submission  So, after tinkering little time, I found a solution.</description>
         
         <dc:creator>shibu</dc:creator>
         

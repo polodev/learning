@@ -1,5 +1,5 @@
 ---
-title: "How to Add Block Cursor in Vim Specially in Gitbash / Cygwin Vim Editor"
+title: "How to Add Block Cursor in Vim Specially in Gitbash or Cygwin Vim Editor"
 date: 2020-08-29T03:45:45+06:00
 description:
 draft: false

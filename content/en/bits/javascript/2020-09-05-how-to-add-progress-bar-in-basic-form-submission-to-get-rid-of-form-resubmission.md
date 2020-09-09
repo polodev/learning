@@ -1,5 +1,5 @@
 ---
-title: "How to Add Progress Bar in Basic Form Submission to Get Rid of Form Resubmission and Showing Indication"
+title: "How to Add Progress Bar in Basic Form Submission to Get Rid of Form Resubmission"
 date: 2020-09-05T02:52:26+06:00
 description:
 draft: false
@@ -28,6 +28,11 @@ image:
 Few days ago, I created a form for submitting user information.
 It required to upload lot of images. which actually takes time.    
 Since, it wasn't a ajax form, I was unable to  add any indication that "form is submitting"
+
+Adding Progress element using following method solve 2 problems: 
+
+*  Help to rid of form Resubmission     
+* Giving indication to user about form submission
 
 So, after tinkering little time, I found a solution. which is below    
 
