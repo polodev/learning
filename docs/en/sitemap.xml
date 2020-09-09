@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://polodev.github.io/learning/</loc>
-    <lastmod>2020-08-29T03:45:45+06:00</lastmod>
+    <lastmod>2020-09-05T02:52:26+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -19,17 +19,12 @@
   
   <url>
     <loc>https://polodev.github.io/learning/bits/</loc>
-    <lastmod>2020-08-29T03:45:45+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://polodev.github.io/learning/bits/how-to-add-block-cursor-in-vim-specially-in-gitbash-/-cygwin-vim-editor/</loc>
-    <lastmod>2020-08-29T03:45:45+06:00</lastmod>
+    <lastmod>2020-09-05T02:52:26+06:00</lastmod>
   </url>
   
   <url>
     <loc>https://polodev.github.io/learning/categories/</loc>
-    <lastmod>2020-08-29T03:27:07+06:00</lastmod>
+    <lastmod>2020-09-05T02:52:26+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -40,6 +35,21 @@
                 hreflang="en"
                 href="https://polodev.github.io/learning/categories/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://polodev.github.io/learning/bits/how-to-add-progress-bar-in-basic-form-submission-to-get-rid-of-form-resubmission-and-showing-indication/</loc>
+    <lastmod>2020-09-05T02:52:26+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://polodev.github.io/learning/categories/javascript/</loc>
+    <lastmod>2020-09-05T02:52:26+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://polodev.github.io/learning/bits/how-to-add-block-cursor-in-vim-specially-in-gitbash-/-cygwin-vim-editor/</loc>
+    <lastmod>2020-08-29T03:45:45+06:00</lastmod>
   </url>
   
   <url>
