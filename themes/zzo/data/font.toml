@@ -1,11 +1,5 @@
-# title_font = "\"Montserrat\", sans-serif"
-# content_font = "\"Muli\", sans-serif"
-
 title_font = "\"Montserrat\", sans-serif"
-
-# content_font not using 
-content_font = "-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif"
-
+content_font = "\"Muli\", sans-serif"
 # content_font = "\"Merriweather\", serif"
 # content_font = "\"Source Sans Pro\", sans-serif"
 # content_font = "\"League Gothic\", sans-serif"

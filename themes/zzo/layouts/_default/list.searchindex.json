@@ -18,8 +18,7 @@
 
   {{- range $index, $element := (where .Site.RegularPages "Kind" "page") -}}
     {{ with $element.Plain }}
-      {{ $hello := (dict "id" $index "title" $element.Title "uri" $element.Permalink "tags" $element.Params.tags "section" $element.Section "content" ( substr $element.Plain 0 30 ) "description" $element.Description) }}
-      {{- $.Scratch.Add "searchindex" (dict "id" $index "title" $element.Title "uri" $element.Permalink "tags" $element.Params.tags "section" $element.Section "content" ( substr $element.Plain 0 30 ) "description" $element.Description) -}}
+      {{- $.Scratch.Add "searchindex" (dict "id" $index "title" $element.Title "uri" $element.Permalink "tags" $element.Params.tags "section" $element.Section "content" $element.Plain "description" $element.Description) -}}
     {{ end }}
   {{- end -}}
 

@@ -12,8 +12,7 @@
     </div>
 
     <div class="summary__container" data-display="block">
-      <!-- range .Paginator.Pages.ByWeight  -->
-      {{ range .Paginator.Pages.ByDate.Reverse }}
+      {{ range .Paginator.Pages.ByWeight }}
         {{ .Render "summary" }}
       {{ end }}
       {{ partial "pagination/pagination" . }}

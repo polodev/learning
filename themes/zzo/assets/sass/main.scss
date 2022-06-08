@@ -44,7 +44,6 @@ $viewport_size: {{ .Site.Params.viewportSize | default "normal" }};
 @import 'base/fonts';
 @import 'base/helpers';
 @import 'base/typography';
-@import 'base/spacing';
 @import 'base/animation';
 
 @import 'layout/navigation';

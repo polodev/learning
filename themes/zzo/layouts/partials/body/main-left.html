@@ -19,7 +19,7 @@
           {{ end }}
         </div>
         <div class="toc toc__outer {{ if $.Param "hideToc" }}hide{{ end }}" data-dir="rtl" data-folding="{{ if $.Param "tocFolding" }}true{{ else }}false{{ end }}" data-ani="{{ $.Site.Params.enableUiAnimation | default "true" }}">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio sequi assumenda recusandae dolorum, pariatur distinctio illo atque enim voluptas, deserunt consectetur quibusdam et similique maxime? Vel accusamus laboriosam eveniet nulla!
+          {{ .TableOfContents }}
         </div>
       {{ end }}
     {{ end }}
