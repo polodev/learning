@@ -13,12 +13,10 @@
     <language>en</language>
     <managingEditor>polodev10@gmail.com (Shibu Deb Polo)</managingEditor>
     <webMaster>polodev10@gmail.com (Shibu Deb Polo)</webMaster>
-    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <copyright>©2022, All Rights Reserved</copyright>
     <lastBuildDate>Sun, 16 Aug 2020 11:57:24 +0600</lastBuildDate>
     
         <atom:link href="https://polodev.github.io/learning/tags/software-installation/index.xml" rel="self" type="application/rss+xml" />
-    
-    
     
 
       
@@ -29,7 +27,8 @@
         <author>polodev10@gmail.com (Shibu Deb Polo)</author>
         <atom:modified>Sun, 16 Aug 2020 11:57:24 +0600</atom:modified>
         <guid>https://polodev.github.io/learning/posts/software-installation-and-config-after-ubuntu-setup-for-web-developer-laravel/</guid>
-        <description>first command after ubuntu installation 1 2  sudo apt upgrade sudo apt update   Install essential software in single command 1  sudo apt install vim git zsh net-tools rlwrap tree ranger xclip exfat-utils exfat-fuse ruby ruby-dev chromium-browser curl   set up vim git editor 1  git config --global core.editor &amp;#34;vim&amp;#34;   installing sublime Go to following link to install sublime text</description>
+        <description>first command after ubuntu installation 1 2 sudo apt upgrade sudo apt update Install essential software in single command 1 sudo apt install vim git zsh net-tools rlwrap tree ranger xclip exfat-utils exfat-fuse ruby ruby-dev chromium-browser curl set up vim git editor 1 git config --global core.editor &amp;#34;vim&amp;#34; installing sublime Go to following link to install sublime text
+https://www.sublimetext.com/docs/3/linux_repositories.html Install oh-my-zsh We already download zsh shell before.</description>
         
         <dc:creator>shibu</dc:creator>
         

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://polodev.github.io/learning/ko/</loc>
     <lastmod>2019-10-19T11:44:14+09:00</lastmod>
@@ -15,9 +14,7 @@
                 hreflang="ko"
                 href="https://polodev.github.io/learning/ko/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/ko/archive/</loc>
     <lastmod>2019-10-19T11:44:14+09:00</lastmod>
     <xhtml:link
@@ -30,9 +27,7 @@
                 hreflang="ko"
                 href="https://polodev.github.io/learning/ko/archive/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/ko/about/</loc>
     <lastmod>2019-10-09T11:44:14+09:00</lastmod>
     <xhtml:link
@@ -45,24 +40,16 @@
                 hreflang="ko"
                 href="https://polodev.github.io/learning/ko/about/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/ko/gallery/</loc>
     <lastmod>2018-10-12T10:20:16+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/ko/gallery/photo/</loc>
     <lastmod>2018-10-12T10:20:16+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/ko/gallery/cartoon/</loc>
     <lastmod>2018-10-11T10:20:16+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/ko/article-categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -74,9 +61,7 @@
                 hreflang="ko"
                 href="https://polodev.github.io/learning/ko/article-categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/ko/article-series/</loc>
     <xhtml:link
                 rel="alternate"
@@ -88,9 +73,7 @@
                 hreflang="ko"
                 href="https://polodev.github.io/learning/ko/article-series/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/ko/article-tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -102,9 +85,7 @@
                 hreflang="ko"
                 href="https://polodev.github.io/learning/ko/article-tags/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/ko/bits-categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -116,9 +97,7 @@
                 hreflang="ko"
                 href="https://polodev.github.io/learning/ko/bits-categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/ko/bits-tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -130,9 +109,7 @@
                 hreflang="ko"
                 href="https://polodev.github.io/learning/ko/bits-tags/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/ko/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -144,13 +121,9 @@
                 hreflang="ko"
                 href="https://polodev.github.io/learning/ko/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/ko/tags/index/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/ko/posts/</loc>
     <xhtml:link
                 rel="alternate"
@@ -162,9 +135,7 @@
                 hreflang="ko"
                 href="https://polodev.github.io/learning/ko/posts/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/ko/series/</loc>
     <xhtml:link
                 rel="alternate"
@@ -176,9 +147,7 @@
                 hreflang="ko"
                 href="https://polodev.github.io/learning/ko/series/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/ko/snippet-categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -190,9 +159,7 @@
                 hreflang="ko"
                 href="https://polodev.github.io/learning/ko/snippet-categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/ko/snippet-tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -204,9 +171,7 @@
                 hreflang="ko"
                 href="https://polodev.github.io/learning/ko/snippet-tags/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/ko/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -219,5 +184,4 @@
                 href="https://polodev.github.io/learning/ko/tags/"
                 />
   </url>
-  
 </urlset>

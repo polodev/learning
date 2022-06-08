@@ -13,12 +13,10 @@
     <language>en</language>
     <managingEditor>polodev10@gmail.com (Shibu Deb Polo)</managingEditor>
     <webMaster>polodev10@gmail.com (Shibu Deb Polo)</webMaster>
-    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <copyright>©2022, All Rights Reserved</copyright>
     <lastBuildDate>Thu, 13 Aug 2020 13:18:58 +0600</lastBuildDate>
     
         <atom:link href="https://polodev.github.io/learning/series/test/index.xml" rel="self" type="application/rss+xml" />
-    
-    
     
 
       
@@ -31,7 +29,7 @@
         <guid>https://polodev.github.io/learning/bits/how-to-check-battery-health-and-battery-status-in-ubuntu-linux/</guid>
         <description>using upower command upower command will give you lot more information about battery, like battery health, battery vendor, battery model.
 Battery model will help you to buy battery in case battery replacement.
-1  upower -i /org/freedesktop/UPower/devices/battery_BAT0   Here battery_BAT0 refer to first battery of your laptop
+1 upower -i /org/freedesktop/UPower/devices/battery_BAT0 Here battery_BAT0 refer to first battery of your laptop
 If you using a laptop with extra battery like thinkpad t460s, t470s, You need to change battery index number to battery_BAT1 in case of, you want to know about second battery.</description>
         
         <dc:creator>shibu</dc:creator>
@@ -57,8 +55,8 @@ If you using a laptop with extra battery like thinkpad t460s, t470s, You need to
         <atom:modified>Tue, 11 Aug 2020 00:23:13 +0600</atom:modified>
         <guid>https://polodev.github.io/learning/bits/how-to-check-cpu-info-in-linux/</guid>
         <description>lscpu command lscpu is the simplest command that shows the cpu information like processor vendor, number of processor, cache, processor speed
-1  lscpu   best way to remember, list cpu for cpu
-Architecture: x86_64CPU op-mode(s): 32-bit, 64-bitByte Order: Little EndianAddress sizes: 39 bits physical, 48 bits virtualCPU(s): 4On-line CPU(s) list: 0-3Thread(s) per core: 2Core(s) per socket: 2Socket(s): 1NUMA node(s): 1Vendor ID: GenuineIntelCPU family: 6Model: 78Model name: Intel(R) Core(TM) i5-6300U CPU @ 2.</description>
+1 lscpu best way to remember, list cpu for cpu
+Architecture: x86_64 CPU op-mode(s): 32-bit, 64-bit Byte Order: Little Endian Address sizes: 39 bits physical, 48 bits virtual CPU(s): 4 On-line CPU(s) list: 0-3 Thread(s) per core: 2 Core(s) per socket: 2 Socket(s): 1 NUMA node(s): 1 Vendor ID: GenuineIntel CPU family: 6 Model: 78 Model name: Intel(R) Core(TM) i5-6300U CPU @ 2.</description>
         
         <dc:creator>shibu</dc:creator>
         
@@ -83,10 +81,10 @@ Architecture: x86_64CPU op-mode(s): 32-bit, 64-bitByte Order: Little EndianAd
         <atom:modified>Mon, 10 Aug 2020 01:13:33 +0600</atom:modified>
         <guid>https://polodev.github.io/learning/bits/how-to-know-service-process-and-ram-status-in-ubuntu-linux/</guid>
         <description>to know about ram To display the total amount of ram in ubuntu
-1  free   default size show in kilobyte unit
+1 free default size show in kilobyte unit
 To display the total amount of ram in ubuntu in megabyte mb unit
-1  free -m   To display the total amount of ram in ubuntu in human friendly unit
-1  free -h   To display RAM type and speed, use the command:</description>
+1 free -m To display the total amount of ram in ubuntu in human friendly unit
+1 free -h To display RAM type and speed, use the command:</description>
         
         <dc:creator>shibu</dc:creator>
         

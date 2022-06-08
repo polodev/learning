@@ -10,17 +10,17 @@
 
 
   
-  <script defer src="/learning/js/fuse.min.c4bee9a8d44273d6154fe86006923d4131eb2e8069d8897687137c6f37f553e3.js"></script>
+  <script defer src="/learning/js/fuse.min.32195737929df2c8096e855a5789cbb3f1331224d9169e8705493e7008f47df8.js"></script>
 
 
 
-<script src="/learning/js/enquire.min.aa37bdcb743826eecdae5c5d177fc7d6552340f1b4378ffaa9c82b2c6111400b.js"></script>
+<script src="/learning/js/enquire.min.dfb99dee1e029d51d6cfb672d847929890b1585402de17f5ed092edd72a688b4.js"></script>
 
-<script defer src="/learning/js/lazysizes.min.5e11d056075a05065b9c0bfec44084a113fc2976c2952ec804dedb61c7662db9.js"></script>
+<script defer src="/learning/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/learning/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/learning/js/helper/getParents.min.b75dda22e2d1c0e1e0574c7764bb95bec70c0fb0d4d5440339ba68c685d5a661.js"></script>
 
-<script defer src="/learning/js/helper/fadeinout.min.93a331f96194789a542f33690bbe4f0c102c7e78ffc018217f5a1c33010bad91.js"></script>
+<script defer src="/learning/js/helper/fadeinout.min.b1a8c6db3f3cc261756044570d21596f0f083625d41433dc9ac02aba5e53777b.js"></script>
 
 <script defer src="/learning/js/helper/closest.min.js"></script>
   
@@ -99,6 +99,74 @@
           navCollapse.setAttribute('data-open', 'true');
           navCollapse.style.maxHeight = navCollapse.scrollHeight + "px";
           navCollapseBtn.classList.add('is-active');
+        }
+      }
+    }) : null;
+    
+
+
+    
+    var tables = document.querySelectorAll('.single__contents > table');
+    for (let i = 0; i < tables.length; i++) {
+      var table = tables[i];
+      var wrapper = document.createElement('div');
+      wrapper.className = 'table-wrapper';
+      table.parentElement.replaceChild(wrapper, table);
+      wrapper.appendChild(table);
+    }
+    
+
+
+    
+    var footNoteRefs = document.querySelectorAll('.footnote-ref');
+    var footNoteBackRefs = document.querySelectorAll('.footnote-backref');
+
+    footNoteRefs ? 
+    footNoteRefs.forEach(function(elem, idx) {
+      elem.onmouseenter = function () {
+        if (navbar.classList.contains('scrolling')) {
+          navbar.classList.remove('scrolling');
+        }
+      }
+
+      elem.onmouseleave = function () {
+        if (!navbar.classList.contains('scrolling')) {
+          setTimeout(function () {
+            navbar.classList.add('scrolling');
+          }, 100);
+        }
+      }
+
+      elem.onclick = function () {
+        if (!navbar.classList.contains('scrolling')) {
+          navbar.classList.remove('navbar--show');
+          navbar.classList.remove('navbar--hide');
+          navbar.classList.add('navbar--hide');
+        }
+      }
+    }) : null;
+
+    footNoteBackRefs ? 
+    footNoteBackRefs.forEach(function(elem, idx) {
+      elem.onmouseenter = function () {
+        if (navbar.classList.contains('scrolling')) {
+          navbar.classList.remove('scrolling');
+        }
+      }
+
+      elem.onmouseleave = function () {
+        if (!navbar.classList.contains('scrolling')) {
+          setTimeout(function() {
+            navbar.classList.add('scrolling');
+          }, 100);
+        }
+      }
+
+      elem.onclick = function () {
+        if (!navbar.classList.contains('scrolling')) {
+          navbar.classList.remove('navbar--show');
+          navbar.classList.remove('navbar--hide');
+          navbar.classList.add('navbar--hide');
         }
       }
     }) : null;
@@ -292,11 +360,13 @@
         if (st < 45) {
           return null;
         }
-        
-        if (!navbar.classList.contains('navbar--hide')) {
-          navbar.classList.add('navbar--hide');
-        } else if (navbar.classList.contains('navbar--show')) {
-          navbar.classList.remove('navbar--show');
+
+        if (navbar.classList.contains('scrolling')) {
+          if (!navbar.classList.contains('navbar--hide')) {
+            navbar.classList.add('navbar--hide');
+          } else if (navbar.classList.contains('navbar--show')) {
+            navbar.classList.remove('navbar--show');
+          }
         }
 
         if (singleContentsElem) {
@@ -363,10 +433,12 @@
           gttBtn.style.display = "none";
         }
 
-        if (navbar.classList.contains('navbar--hide')) {
-          navbar.classList.remove('navbar--hide');
-        } else if (!navbar.classList.contains('navbar--show')) {
-          navbar.classList.add('navbar--show');
+        if (navbar.classList.contains('scrolling')) {
+          if (navbar.classList.contains('navbar--hide')) {
+            navbar.classList.remove('navbar--hide');
+          } else if (!navbar.classList.contains('navbar--show')) {
+            navbar.classList.add('navbar--show');
+          }
         }
 
         if (singleContentsElem) {
@@ -447,6 +519,17 @@
     var rootEleme = document.getElementById('root');
     var selectThemeElem = document.querySelectorAll('.select-theme');
     var selectThemeItemElem = document.querySelectorAll('.select-theme__item');
+    
+    
+    var skinDarkCode = JSON.parse("\"dark\"");
+    
+    var skinLightCode = JSON.parse("\"light\"");
+    
+    var skinHackerCode = JSON.parse("\"hacker\"");
+    
+    var skinSolarizedCode = JSON.parse("\"solarized\"");
+    
+    var skinKimbieCode = JSON.parse("\"kimbie\"");
 
     var setMetaColor = function(themeColor) {
       var metaMsapplicationTileColor = document.getElementsByName('msapplication-TileColor')[0];
@@ -479,7 +562,21 @@
         metaThemeColor.setAttribute('content', '#eee8d5');
         metaMsapplicationNavbuttonColor.setAttribute('content', '#eee8d5');
         metaAppleMobileWebAappStatusBarStyle.setAttribute('content', '#eee8d5');
-      } 
+      }
+    }
+
+    var parseSkinCode = function(themeText) {
+      if (themeText === skinDarkCode) {
+        return 'dark';
+      } else if (themeText === skinLightCode) {
+        return 'light';
+      } else if (themeText === skinHackerCode) {
+        return 'hacker';
+      } else if (themeText === skinSolarizedCode) {
+        return 'solarized';
+      } else if (themeText === skinKimbieCode) {
+        return 'kimbie';
+      }
     }
     
     if (localTheme) {
@@ -500,7 +597,7 @@
     selectThemeItemElem ? 
     selectThemeItemElem.forEach(function (v, i) {
       v.addEventListener('click', function (e) {
-        var selectedThemeVariant = e.target.text.trim();
+        var selectedThemeVariant = parseSkinCode(e.target.text.trim());
         localStorage.setItem('theme', selectedThemeVariant);
         setMetaColor(selectedThemeVariant);
 
@@ -566,6 +663,12 @@
     
     var enableSearch = JSON.parse("true");
     
+    var searchDistance = JSON.parse("null");
+    
+    var searchThreshold = JSON.parse("null");
+    
+    var searchContent = JSON.parse("null");
+    
     var enableSearchHighlight = JSON.parse("true");
     
     var searchResultPosition = JSON.parse("\"main\"");
@@ -589,14 +692,18 @@
         xhr.onload = function () {
           if (xhr.status === 200) {
             fuse = new Fuse(JSON.parse(xhr.response.toString('utf-8')), {
-              keys: sectionType.includes('publication') ? ['title', 'abstract'] : ['title', 'description', 'content'],
+              keys: sectionType.includes('publication') ? ['title', 'abstract'] : 
+                searchContent ? ['title', 'description', 'content'] : ['title', 'description'],
               includeMatches: enableSearchHighlight,
-              shouldSort: true,
-              threshold: 0.4,
-              location: 0,
-              distance: 100,
+              shouldSort: true, 
+              threshold: searchThreshold ? searchThreshold : 0.4, 
+              location: 0, 
+              distance: searchDistance ? searchDistance : 100, 
               maxPatternLength: 32,
               minMatchCharLength: 1,
+              isCaseSensitive: false, 
+              findAllMatches: false, 
+              useExtendedSearch: false, 
             });
             window.fuse = fuse;
           }
@@ -613,16 +720,16 @@
       li.className = 'search-result__item';
       
       var a = document.createElement('a');
-      a.innerHTML = obj.title;
+      a.innerHTML = obj.item.title;
       a.setAttribute('class', 'search-result__item--title');
-      a.setAttribute('href', obj.permalink);
+      a.setAttribute('href', obj.item.uri);
 
       var descDiv = document.createElement('div');
       descDiv.setAttribute('class', 'search-result__item--desc');
-      if (obj.description) {
-        descDiv.innerHTML = obj.description;
-      } else if (obj.content) {
-        descDiv.innerHTML = obj.content.substring(0, 225);
+      if (obj.item.description) {
+        descDiv.innerHTML = obj.item.description;
+      } else if (obj.item.content) {
+        descDiv.innerHTML = obj.item.content.substring(0, 225);
       }
       
       li.appendChild(a);
@@ -1096,7 +1203,7 @@
   
     var mobileSearchInputElem = document.querySelector('#search-mobile');
     var mobileSearchClassElem = document.querySelector('.mobile-search');
-    var mobileSearchBtnElem = document.querySelector('#mobileSearchBtn');
+    var mobileSearchBtnElems = document.querySelectorAll('.navbar-search');
     var mobileSearchCloseBtnElem = document.querySelector('#search-mobile-close');
     var mobileSearchContainer = document.querySelector('#search-mobile-container');
     var mobileSearchResultsElem = document.querySelector('#search-mobile-results');
@@ -1106,19 +1213,21 @@
       mobileSearchClassElem.style.display = 'none';
     }
 
-    mobileSearchBtnElem ? 
-    mobileSearchBtnElem.addEventListener('click', function () {
-      if (mobileSearchContainer) {
-        mobileSearchContainer.style.display = 'block';
-      }
+    mobileSearchBtnElems ? 
+    mobileSearchBtnElems.forEach(function (elem, idx) {
+      elem.addEventListener('click', function () {
+        if (mobileSearchContainer) {
+          mobileSearchContainer.style.display = 'block';
+        }
 
-      if (mobileSearchInputElem) {
-        mobileSearchInputElem.focus();
-      }
+        if (mobileSearchInputElem) {
+          mobileSearchInputElem.focus();
+        }
 
-      if (htmlElem) {
-        htmlElem.style.overflowY = 'hidden';
-      }
+        if (htmlElem) {
+          htmlElem.style.overflowY = 'hidden';
+        }
+      });
     }) : null;
 
     mobileSearchCloseBtnElem ? 
@@ -1213,7 +1322,8 @@
     }
   
   });
-</script>    
+</script>
+    
     
 
 
@@ -1239,7 +1349,7 @@
 <meta property="og:type" content="website">
 <meta property="og:description" content="Tinkering With Code">
 
-<meta name="generator" content="Hugo 0.74.3" />
+<meta name="generator" content="Hugo 0.100.1" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1317,7 +1427,7 @@
 
 
         <div class="wrapper" data-type="bits" data-kind="section">
-            <nav class="navbar" role="navigation" aria-label="main navigation" data-dir="ltr">
+            <nav class="navbar scrolling" role="navigation" aria-label="main navigation" data-dir="ltr">
   <div class="navbar__brand">
     
     <a href="/learning/" title="Home" rel="home" class="navbar__logo-link">
@@ -1366,7 +1476,7 @@
 </div>
 
 
-<div id="mobileSearchBtn" class="mobile-search__btn" data-ani="true">
+<div class="mobile-search__btn navbar-search" data-ani="true">
   <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M15.5 14h-.79l-.28-.27c1.2-1.4 1.82-3.31 1.48-5.34-.47-2.78-2.79-5-5.59-5.34-4.23-.52-7.79 3.04-7.27 7.27.34 2.8 2.56 5.12 5.34 5.59 2.03.34 3.94-.28 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
 </div>
 
@@ -1476,6 +1586,8 @@
   </ul>
 </div>
   <div class="navbar__menu">
+  
+  
   
 <div class="theme" data-ani="true">
   <div class="dropdown">
@@ -1617,7 +1729,7 @@
             Few days ago, I created a form for submitting user information.
 It required to upload lot of images. which actually takes time. Since, it wasn&rsquo;t a ajax form, I was unable to add any indication that &ldquo;form is submitting&rdquo;
 Adding Progress element using following method solve 2 problems:
- Help to rid of form Resubmission Giving indication to user about form submission  So, after tinkering little time, I found a solution.
+Help to rid of form Resubmission Giving indication to user about form submission So, after tinkering little time, I found a solution.
           
         </div>
       </div>
@@ -1628,6 +1740,7 @@ Adding Progress element using following method solve 2 problems:
   </div>
   <hr />
 </article>
+
 
             
                 
@@ -1654,7 +1767,7 @@ Adding Progress element using following method solve 2 problems:
             .vimrc In windows gitbash vim / Cygwin vim / linux subsystem terminal, switching between line cursor and block cursor not happened automatically.
 I feel uncomfortable when writing inside vim. since, I can&rsquo;t distinguish between command mode and normal mode.
 To get a block cursor in Vim in the Cygwin terminal write following code in .vimrc file
-1 2 3 4  let &amp;t_ti.
+1 2 3 4 let &amp;t_ti.
           
         </div>
       </div>
@@ -1665,6 +1778,7 @@ To get a block cursor in Vim in the Cygwin terminal write following code in .vim
   </div>
   <hr />
 </article>
+
 
             
                 
@@ -1689,8 +1803,8 @@ To get a block cursor in Vim in the Cygwin terminal write following code in .vim
         <div class="summary-classic__text p2">
           
             NumberFormatter We can convert number to string using php built in class NumberFormatter .
-1 2 3 4  &lt;?php $digit = new NumberFormatter(&#34;en&#34;, NumberFormatter::SPELLOUT); echo $digit-&gt;format(264); // output will be &#34;two hundred sixty-four&#34;   Troubleshooting: You need to enable php_intl extension, when using NumberFormatter class. You can enable this from php.ini setting file.
-In my case, I am using ubuntu server.
+1 2 3 4 &lt;?php $digit = new NumberFormatter(&#34;en&#34;, NumberFormatter::SPELLOUT); echo $digit-&gt;format(264); // output will be &#34;two hundred sixty-four&#34; Troubleshooting: You need to enable php_intl extension, when using NumberFormatter class. You can enable this from php.ini setting file.
+In my case, I am using ubuntu server. I required to install php7.
           
         </div>
       </div>
@@ -1701,6 +1815,7 @@ In my case, I am using ubuntu server.
   </div>
   <hr />
 </article>
+
 
             
                 
@@ -1727,7 +1842,7 @@ In my case, I am using ubuntu server.
             user Laravel eloquent, we can select all users from arrays of emails.
 I made a cart application. Where I required to get list of users from list of emails(order emails).
 Using whereIn eloquent method we can easily fetch array of users from database.
-1 2  User::whereIn(&#39;email&#39;, [&#39;polodev10@gmail.com&#39;, &#39;company@gmail.com&#39;, &#39;milky@gmail.com&#39;]) -&gt;get();   In my case, I required to fetch, array of user ids.
+1 2 User::whereIn(&#39;email&#39;, [&#39;polodev10@gmail.com&#39;, &#39;company@gmail.com&#39;, &#39;milky@gmail.com&#39;]) -&gt;get(); In my case, I required to fetch, array of user ids.
           
         </div>
       </div>
@@ -1738,6 +1853,7 @@ Using whereIn eloquent method we can easily fetch array of users from database.
   </div>
   <hr />
 </article>
+
 
             
                 
@@ -1762,7 +1878,8 @@ Using whereIn eloquent method we can easily fetch array of users from database.
         <div class="summary-classic__text p2">
           
             Whenever form submitted with media, It will take time to process. Since it require time to upload then process the form.
-In this case, If user click this button again, form submit again. Eventually we are having duplicate, sometimes 3/4 form submission happen simultaneously. Which is not expected.
+In this case, If user click this button again, form submit again. Eventually we are having duplicate, sometimes 3/4 form submission happen simultaneously.
+Which is not expected.
 To get rid such circumstance, we will disable submit button, once user click this button.
           
         </div>
@@ -1774,6 +1891,7 @@ To get rid such circumstance, we will disable submit button, once user click thi
   </div>
   <hr />
 </article>
+
 
             
                 
@@ -1798,8 +1916,8 @@ To get rid such circumstance, we will disable submit button, once user click thi
         <div class="summary-classic__text p2">
           
             hdparam command in teminal using hdparm command we can check ssd or har disk perfomance
-1  sudo hdparm -Tt /dev/sda   following output I am getting in terminal
-dev/sda:Timing cached reads: 13614 MB in 1.99 seconds = 6837.31 MB/secTiming buffered disk reads: 874 MB in 3.02 seconds = 289.78 MB/secdd command for write speed To know about write speed we can run a loop to copy and delete file
+1 sudo hdparm -Tt /dev/sda following output I am getting in terminal
+dev/sda: Timing cached reads: 13614 MB in 1.99 seconds = 6837.31 MB/sec Timing buffered disk reads: 874 MB in 3.02 seconds = 289.78 MB/sec dd command for write speed To know about write speed we can run a loop to copy and delete file
           
         </div>
       </div>
@@ -1810,6 +1928,7 @@ dev/sda:Timing cached reads: 13614 MB in 1.99 seconds = 6837.31 MB/secTiming b
   </div>
   <hr />
 </article>
+
 
             
                 
@@ -1835,7 +1954,7 @@ dev/sda:Timing cached reads: 13614 MB in 1.99 seconds = 6837.31 MB/secTiming b
           
             using upower command upower command will give you lot more information about battery, like battery health, battery vendor, battery model.
 Battery model will help you to buy battery in case battery replacement.
-1  upower -i /org/freedesktop/UPower/devices/battery_BAT0   Here battery_BAT0 refer to first battery of your laptop
+1 upower -i /org/freedesktop/UPower/devices/battery_BAT0 Here battery_BAT0 refer to first battery of your laptop
 If you using a laptop with extra battery like thinkpad t460s, t470s, You need to change battery index number to battery_BAT1 in case of, you want to know about second battery.
           
         </div>
@@ -1847,6 +1966,7 @@ If you using a laptop with extra battery like thinkpad t460s, t470s, You need to
   </div>
   <hr />
 </article>
+
 
             
                 
@@ -1871,8 +1991,8 @@ If you using a laptop with extra battery like thinkpad t460s, t470s, You need to
         <div class="summary-classic__text p2">
           
             lscpu command lscpu is the simplest command that shows the cpu information like processor vendor, number of processor, cache, processor speed
-1  lscpu   best way to remember, list cpu for cpu
-Architecture: x86_64CPU op-mode(s): 32-bit, 64-bitByte Order: Little EndianAddress sizes: 39 bits physical, 48 bits virtualCPU(s): 4On-line CPU(s) list: 0-3Thread(s) per core: 2Core(s) per socket: 2Socket(s): 1NUMA node(s): 1Vendor ID: GenuineIntelCPU family: 6Model: 78Model name: Intel(R) Core(TM) i5-6300U CPU @ 2.
+1 lscpu best way to remember, list cpu for cpu
+Architecture: x86_64 CPU op-mode(s): 32-bit, 64-bit Byte Order: Little Endian Address sizes: 39 bits physical, 48 bits virtual CPU(s): 4 On-line CPU(s) list: 0-3 Thread(s) per core: 2 Core(s) per socket: 2 Socket(s): 1 NUMA node(s): 1 Vendor ID: GenuineIntel CPU family: 6 Model: 78 Model name: Intel(R) Core(TM) i5-6300U CPU @ 2.
           
         </div>
       </div>
@@ -1883,6 +2003,7 @@ Architecture: x86_64CPU op-mode(s): 32-bit, 64-bitByte Order: Little EndianAd
   </div>
   <hr />
 </article>
+
 
             
                 
@@ -1907,10 +2028,10 @@ Architecture: x86_64CPU op-mode(s): 32-bit, 64-bitByte Order: Little EndianAd
         <div class="summary-classic__text p2">
           
             to know about ram To display the total amount of ram in ubuntu
-1  free   default size show in kilobyte unit
+1 free default size show in kilobyte unit
 To display the total amount of ram in ubuntu in megabyte mb unit
-1  free -m   To display the total amount of ram in ubuntu in human friendly unit
-1  free -h   To display RAM type and speed, use the command:
+1 free -m To display the total amount of ram in ubuntu in human friendly unit
+1 free -h To display RAM type and speed, use the command:
           
         </div>
       </div>
@@ -1921,6 +2042,7 @@ To display the total amount of ram in ubuntu in megabyte mb unit
   </div>
   <hr />
 </article>
+
 
             
                 
@@ -1947,7 +2069,7 @@ To display the total amount of ram in ubuntu in megabyte mb unit
             Initially, default mysql settings, comes with &ldquo;auth_socket&rdquo; plugin for root user.
 In my case I was unable to login to phpmyadmin from web browser using root user
 Login to mysql To see which plugin used for specific user we need to login to our mysql from command line
-1  sudo mysql -uroot   Plugin used for user in mysql Once we login to mysql, we can view current used plugin for user, using following code
+1 sudo mysql -uroot Plugin used for user in mysql Once we login to mysql, we can view current used plugin for user, using following code
           
         </div>
       </div>
@@ -1958,6 +2080,7 @@ Login to mysql To see which plugin used for specific user we need to login to ou
   </div>
   <hr />
 </article>
+
 
             
                 
@@ -1982,9 +2105,9 @@ Login to mysql To see which plugin used for specific user we need to login to ou
         <div class="summary-classic__text p2">
           
             Git credential storing using Libsecret Installing libsecret
-1  sudo apt install libsecret-1-0 libsecret-1-dev   Run make command for recompile. If you don&rsquo;t have make command accessible install build essential
-1  sudo apt install build-essential   1 2  cd /usr/share/doc/git/contrib/credential/libsecret sudo make   Update git credential.helper
-1  git config --global credential.helper /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret   Alternative - git cache credential helper If you don&rsquo;t want to install anything you can use git credential helper.
+1 sudo apt install libsecret-1-0 libsecret-1-dev Run make command for recompile. If you don&rsquo;t have make command accessible install build essential
+1 sudo apt install build-essential 1 2 cd /usr/share/doc/git/contrib/credential/libsecret sudo make Update git credential.helper
+1 git config --global credential.helper /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret Alternative - git cache credential helper If you don&rsquo;t want to install anything you can use git credential helper.
           
         </div>
       </div>
@@ -1995,6 +2118,7 @@ Login to mysql To see which plugin used for specific user we need to login to ou
   </div>
   <hr />
 </article>
+
 
             
                 
@@ -2019,9 +2143,9 @@ Login to mysql To see which plugin used for specific user we need to login to ou
         <div class="summary-classic__text p2">
           
             Git clone and update submodule later clone the repository
-1  git clone &lt;git repository&gt;   You have to do two things to update submodule
-1 2  git submodule init git submodule update   Git cloning including submodules In git 2.13 version and later, &ndash;recurse-submodules can be used instead of &ndash;recursive:
-1  git clone --recurse-submodules -j8 git://github.
+1 git clone &lt;git repository&gt; You have to do two things to update submodule
+1 2 git submodule init git submodule update Git cloning including submodules In git 2.13 version and later, &ndash;recurse-submodules can be used instead of &ndash;recursive:
+1 git clone --recurse-submodules -j8 git://github.com/username/repository.git heres, -j8 is an optional performance optimization that became available in version 2.
           
         </div>
       </div>
@@ -2032,6 +2156,7 @@ Login to mysql To see which plugin used for specific user we need to login to ou
   </div>
   <hr />
 </article>
+
 
             
             
@@ -2410,11 +2535,11 @@ Login to mysql To see which plugin used for specific user we need to login to ou
 
     <hr />
 
-    <div class="basicflex">
+    <div class="basicflex flexwrap">
         
-            <a href="" class="footer__link" target="_blank" rel="noreferrer"></a>
+            
         
-            <a href="" class="footer__link" target="_blank" rel="noreferrer"></a>
+            
         
     </div>
 
@@ -2423,7 +2548,7 @@ Login to mysql To see which plugin used for specific user we need to login to ou
                 
             <p class="caption">
                 
-                    ©2020, All Rights Reserved
+                    ©2022, All Rights Reserved
                 
             </p>
         

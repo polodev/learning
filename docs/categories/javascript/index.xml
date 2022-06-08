@@ -13,12 +13,10 @@
     <language>en</language>
     <managingEditor>polodev10@gmail.com (Shibu Deb Polo)</managingEditor>
     <webMaster>polodev10@gmail.com (Shibu Deb Polo)</webMaster>
-    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <copyright>©2022, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 05 Sep 2020 02:52:26 +0600</lastBuildDate>
     
         <atom:link href="https://polodev.github.io/learning/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
-    
-    
     
 
       
@@ -32,7 +30,7 @@
         <description>Few days ago, I created a form for submitting user information.
 It required to upload lot of images. which actually takes time. Since, it wasn&amp;rsquo;t a ajax form, I was unable to add any indication that &amp;ldquo;form is submitting&amp;rdquo;
 Adding Progress element using following method solve 2 problems:
- Help to rid of form Resubmission Giving indication to user about form submission  So, after tinkering little time, I found a solution.</description>
+Help to rid of form Resubmission Giving indication to user about form submission So, after tinkering little time, I found a solution.</description>
         
         <dc:creator>shibu</dc:creator>
         

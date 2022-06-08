@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://polodev.github.io/learning/</loc>
     <lastmod>2020-09-05T02:52:26+06:00</lastmod>
@@ -15,14 +14,10 @@
                 hreflang="en"
                 href="https://polodev.github.io/learning/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/bits/</loc>
     <lastmod>2020-09-05T02:52:26+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/categories/</loc>
     <lastmod>2020-09-05T02:52:26+06:00</lastmod>
     <xhtml:link
@@ -35,64 +30,40 @@
                 hreflang="en"
                 href="https://polodev.github.io/learning/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/bits/how-to-add-progress-bar-in-basic-form-submission-to-get-rid-of-form-resubmission/</loc>
     <lastmod>2020-09-05T02:52:26+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/categories/javascript/</loc>
     <lastmod>2020-09-05T02:52:26+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/bits/how-to-add-block-cursor-in-vim-specially-in-gitbash-or-cygwin-vim-editor/</loc>
     <lastmod>2020-08-29T03:45:45+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/bits/how-to-convert-digit-to-words-in-php-laravel-using-php-built-in-numberformatter-class/</loc>
     <lastmod>2020-08-29T03:27:07+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/categories/php/</loc>
     <lastmod>2020-08-29T03:27:07+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/bits/how-to-get-list-of-user-by-list-of-email-using-eloquent-query-in-laravel/</loc>
     <lastmod>2020-08-27T03:24:56+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/bits/how-to-disable-submit-button-once-it-has-been-clicked/</loc>
     <lastmod>2020-08-23T04:51:54+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/categories/html/</loc>
     <lastmod>2020-08-23T04:51:54+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/posts/how-to-add-slug-as-default-route-key-in-laravel/</loc>
     <lastmod>2020-08-21T01:31:47+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/tags/laravel/</loc>
     <lastmod>2020-08-21T01:31:47+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/categories/laravel/</loc>
     <lastmod>2020-08-21T01:31:47+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/posts/</loc>
     <lastmod>2020-08-21T01:31:47+06:00</lastmod>
     <xhtml:link
@@ -105,14 +76,10 @@
                 hreflang="en"
                 href="https://polodev.github.io/learning/posts/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/tags/slug/</loc>
     <lastmod>2020-08-21T01:31:47+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/tags/</loc>
     <lastmod>2020-08-21T01:31:47+06:00</lastmod>
     <xhtml:link
@@ -125,39 +92,25 @@
                 hreflang="en"
                 href="https://polodev.github.io/learning/tags/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/tags/linux/</loc>
     <lastmod>2020-08-16T11:57:24+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/categories/linux/</loc>
     <lastmod>2020-08-16T11:57:24+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/posts/software-installation-and-config-after-ubuntu-setup-for-web-developer-laravel/</loc>
     <lastmod>2020-08-16T11:57:24+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/tags/software-installation/</loc>
     <lastmod>2020-08-16T11:57:24+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/bits/how-to-check-ssd-and-hard-disk-performance-in-ubuntu-linux/</loc>
     <lastmod>2020-08-14T03:59:23+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/bits/how-to-check-battery-health-and-battery-status-in-ubuntu-linux/</loc>
     <lastmod>2020-08-13T13:18:58+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/series/</loc>
     <lastmod>2020-08-13T13:18:58+06:00</lastmod>
     <xhtml:link
@@ -170,79 +123,49 @@
                 hreflang="en"
                 href="https://polodev.github.io/learning/series/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/series/test/</loc>
     <lastmod>2020-08-13T13:18:58+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/bits/how-to-check-cpu-info-in-linux/</loc>
     <lastmod>2020-08-11T00:23:13+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/bits/how-to-know-service-process-and-ram-status-in-ubuntu-linux/</loc>
     <lastmod>2020-08-10T01:13:33+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/bits/how-to-replace-auth-socket-by-mysql-native-password/</loc>
     <lastmod>2020-08-09T11:43:43+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/bits/how-to-store-git-credential-in-ubuntu-linux-using-libsecret/</loc>
     <lastmod>2020-08-08T20:45:41+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/bits/how-to-clone-a-git-project-with-submodule/</loc>
     <lastmod>2020-08-08T20:44:11+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/articles/</loc>
     <lastmod>2020-08-08T19:02:27+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/articles/demo-article/</loc>
     <lastmod>2020-08-08T19:02:27+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/snippets/demo-snippet/</loc>
     <lastmod>2020-08-08T19:02:27+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/snippets/</loc>
     <lastmod>2020-08-08T19:02:27+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/posts/ajax-in-wordpress-using-admin-ajax.php/</loc>
     <lastmod>2020-08-08T18:37:38+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/tags/wordpress/</loc>
     <lastmod>2020-08-08T18:37:38+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/categories/wordpress/</loc>
     <lastmod>2020-08-08T18:37:38+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/tags/wordpress-ajax/</loc>
     <lastmod>2020-08-08T18:37:38+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/archive/</loc>
     <lastmod>2019-10-19T11:44:14+09:00</lastmod>
     <xhtml:link
@@ -255,9 +178,7 @@
                 hreflang="en"
                 href="https://polodev.github.io/learning/archive/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -270,9 +191,7 @@
                 hreflang="en"
                 href="https://polodev.github.io/learning/about/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/article-categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -284,9 +203,7 @@
                 hreflang="en"
                 href="https://polodev.github.io/learning/article-categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/article-series/</loc>
     <xhtml:link
                 rel="alternate"
@@ -298,9 +215,7 @@
                 hreflang="en"
                 href="https://polodev.github.io/learning/article-series/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/article-tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -312,9 +227,7 @@
                 hreflang="en"
                 href="https://polodev.github.io/learning/article-tags/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/bits-categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -326,9 +239,7 @@
                 hreflang="en"
                 href="https://polodev.github.io/learning/bits-categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/bits-tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -340,9 +251,7 @@
                 hreflang="en"
                 href="https://polodev.github.io/learning/bits-tags/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/snippet-categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -354,9 +263,7 @@
                 hreflang="en"
                 href="https://polodev.github.io/learning/snippet-categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://polodev.github.io/learning/snippet-tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -369,5 +276,4 @@
                 href="https://polodev.github.io/learning/snippet-tags/"
                 />
   </url>
-  
 </urlset>

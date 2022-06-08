@@ -13,12 +13,10 @@
     <language>en</language>
     <managingEditor>polodev10@gmail.com (Shibu Deb Polo)</managingEditor>
     <webMaster>polodev10@gmail.com (Shibu Deb Polo)</webMaster>
-    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <copyright>©2022, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 29 Aug 2020 03:27:07 +0600</lastBuildDate>
     
         <atom:link href="https://polodev.github.io/learning/categories/php/index.xml" rel="self" type="application/rss+xml" />
-    
-    
     
 
       
@@ -30,8 +28,8 @@
         <atom:modified>Sat, 29 Aug 2020 03:27:07 +0600</atom:modified>
         <guid>https://polodev.github.io/learning/bits/how-to-convert-digit-to-words-in-php-laravel-using-php-built-in-numberformatter-class/</guid>
         <description>NumberFormatter We can convert number to string using php built in class NumberFormatter .
-1 2 3 4  &amp;lt;?php $digit = new NumberFormatter(&amp;#34;en&amp;#34;, NumberFormatter::SPELLOUT); echo $digit-&amp;gt;format(264); // output will be &amp;#34;two hundred sixty-four&amp;#34;   Troubleshooting: You need to enable php_intl extension, when using NumberFormatter class. You can enable this from php.ini setting file.
-In my case, I am using ubuntu server.</description>
+1 2 3 4 &amp;lt;?php $digit = new NumberFormatter(&amp;#34;en&amp;#34;, NumberFormatter::SPELLOUT); echo $digit-&amp;gt;format(264); // output will be &amp;#34;two hundred sixty-four&amp;#34; Troubleshooting: You need to enable php_intl extension, when using NumberFormatter class. You can enable this from php.ini setting file.
+In my case, I am using ubuntu server. I required to install php7.</description>
         
         <dc:creator>shibu</dc:creator>
         
