@@ -3,6 +3,8 @@ wsl --list
 wsl --unregister Ubuntu
 ```
 
+
+
 # virtualbox display fixing 
 increase video memory from sharing 
 [right side ctrl] + [Home] key to toggle menu from context menu
