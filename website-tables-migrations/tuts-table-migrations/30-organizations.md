@@ -1,3 +1,5 @@
+organizations
+# field
 * name
 * created_by [ foreign: users ]
 * City
